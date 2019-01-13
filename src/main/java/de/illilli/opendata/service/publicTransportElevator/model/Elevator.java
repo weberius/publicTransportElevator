@@ -4,7 +4,7 @@ public class Elevator {
 
 	private String bezeichnung;
 	private String id;
-	private String haltestellenbereich;
+	private int haltestellenbereich;
 	private String info;
 	private Geometrie geometrie;
 
@@ -24,11 +24,11 @@ public class Elevator {
 		this.id = id;
 	}
 
-	public String getHaltestellenbereich() {
+	public int getHaltestellenbereich() {
 		return haltestellenbereich;
 	}
 
-	public void setHaltestellenbereich(String haltestellenbereich) {
+	public void setHaltestellenbereich(int haltestellenbereich) {
 		this.haltestellenbereich = haltestellenbereich;
 	}
 
@@ -53,7 +53,7 @@ public class Elevator {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((bezeichnung == null) ? 0 : bezeichnung.hashCode());
-		result = prime * result + ((haltestellenbereich == null) ? 0 : haltestellenbereich.hashCode());
+		result = prime * result + haltestellenbereich;
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		result = prime * result + ((info == null) ? 0 : info.hashCode());
 		return result;
@@ -73,10 +73,7 @@ public class Elevator {
 				return false;
 		} else if (!bezeichnung.equals(other.bezeichnung))
 			return false;
-		if (haltestellenbereich == null) {
-			if (other.haltestellenbereich != null)
-				return false;
-		} else if (!haltestellenbereich.equals(other.haltestellenbereich))
+		if (haltestellenbereich != other.haltestellenbereich)
 			return false;
 		if (id == null) {
 			if (other.id != null)

@@ -71,6 +71,39 @@ Beispiel [/publicTransportElevator/stop/{id}](http://localhost:8080/publicTransp
 - [Fahrtreppen KVB Koeln im json Format](https://online-service.kvb-koeln.de/geoserver/OPENDATA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=ODENDATA%3Afahrtreppen&outputFormat=application/json)
 - [Stoerungen Fahrtreppen KVB Koeln im json Format](https://online-service.kvb-koeln.de/geoserver/OPENDATA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=ODENDATA%3Afahrtreppen_gestoert&outputFormat=application/json)
 
+# Datenbank
+
+## Tabellen anlegen
+
+### elevator
+
+	CREATE TABLE elevator (
+	    id character varying(10) NOT NULL,
+	    bezeichnung character varying(64),
+	    haltestellenbereich integer,
+	    info character varying(256)
+	);	
+
+### geometrie
+
+	CREATE TABLE geometrie (
+	    id integer NOT NULL,
+	    lat double precision,
+	    lon double precision,
+	    type character varying(32),
+	    epsg character varying(16)
+	);	
+
+### interruption
+
+	CREATE TABLE geometrie (
+	    id integer NOT NULL,
+	    elevatorid character varying(32),
+	    start character varying(16),
+	    stop character varying(16)
+	);	
+
+
 # Installation
 
 Diese Applikation soll sowohl als Web-Applikation auf einem Tomcat installiert werden, als auch auf Heroku.

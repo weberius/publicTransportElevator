@@ -27,7 +27,7 @@ public class ElevatorsFacade implements Facade {
 	List<Elevator> data = new ArrayList<Elevator>();
 
 	public ElevatorsFacade() throws IOException {
-		this(ElevatorsFacade.class.getClassLoader().getResource("/fahrtreppen.json"));
+		this(ElevatorsFacade.class.getClassLoader().getResource("fahrtreppen.json"));
 	}
 
 	public ElevatorsFacade(URL url) throws IOException {
@@ -46,7 +46,8 @@ public class ElevatorsFacade implements Facade {
 			Map<String, Object> properties = feature.getProperties();
 			elevator.setId((String) properties.get("Kennung"));
 			elevator.setBezeichnung((String) properties.get("Bezeichnung"));
-			elevator.setHaltestellenbereich((String) properties.get("Haltestellenbereich"));
+			int haltestellenbereich = Integer.parseInt((String) properties.get("Haltestellenbereich"));
+			elevator.setHaltestellenbereich(haltestellenbereich);
 			elevator.setInfo((String) properties.get("Info"));
 
 			if (feature.getGeometry() instanceof Point) {
