@@ -1,0 +1,4728 @@
+{
+	"type": "FeatureCollection",
+	"totalFeatures": 262,
+	"features": [
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ba7",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95072785,
+					50.94835681
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "001-51",
+				"Bezeichnung": "Ausgang Ritterstr. Fahrtrichtung Ebertplatz",
+				"Haltestellenbereich": "36",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ba6",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9506279,
+					50.9484678
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "001-52",
+				"Bezeichnung": "Ausgang Ritterstr. Fahrtrichtung Christophstr./Mediapark",
+				"Haltestellenbereich": "36",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ba5",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95211352,
+					50.9488734
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "001-53",
+				"Bezeichnung": "Ausgang S-Bahn Fahrtrichtung Ebertplatz",
+				"Haltestellenbereich": "36",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ba4",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95201601,
+					50.94896841
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "001-54",
+				"Bezeichnung": "Ausgang S-Bahn Fahrtrichtung Christophstr./Mediapark",
+				"Haltestellenbereich": "36",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ba3",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95812284,
+					50.95010787
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-51",
+				"Bezeichnung": "Ausgang Turiner Str.",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ba2",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95835995,
+					50.95089796
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-52",
+				"Bezeichnung": "Ausgang Neusser Str.",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ba1",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9584376,
+					50.95099937
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-53",
+				"Bezeichnung": "Ausgang Riehler Str. Nord",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ba0",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95940686,
+					50.95122811
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-55",
+				"Bezeichnung": "Zwischenebene Nord, Fahrtrichtung Süd",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b9f",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95957522,
+					50.95118137
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-56",
+				"Bezeichnung": "Zwischenebene Nord, Fahrtrichtung Nord",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b9e",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95902208,
+					50.9503339
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-59",
+				"Bezeichnung": "Zwischenebene Süd, Fahrtrichtung Nord",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b9d",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95881505,
+					50.95038138
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-60",
+				"Bezeichnung": "Zwischenebene Süd, Fahrtrichtung Süd",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b9c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95966716,
+					50.95115307
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-62",
+				"Bezeichnung": "Ausgang Riehler Str./Th.-Heuss-Ring",
+				"Haltestellenbereich": "35",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b9b",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96401678,
+					50.95411185
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "003-51",
+				"Bezeichnung": "Fahrtrichtung Ebertplatz",
+				"Haltestellenbereich": "34",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b9a",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96422571,
+					50.95390172
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "003-52",
+				"Bezeichnung": "Fahrtrichtung Zoo/Flora",
+				"Haltestellenbereich": "34",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b99",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95495072,
+					50.9585719
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "005-51",
+				"Bezeichnung": "Zwischenebene Nord - Gleis Richtung Ebertplatz",
+				"Haltestellenbereich": "305",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b98",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95514041,
+					50.95860081
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "005-52",
+				"Bezeichnung": "Zwischenebene Nord - Gleis Richtung Florastr.",
+				"Haltestellenbereich": "305",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b97",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9555723,
+					50.95767691
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "005-53",
+				"Bezeichnung": "Zwischenebene Süd - Gleis Richtung Florastr.",
+				"Haltestellenbereich": "305",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b96",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95539351,
+					50.95763769
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "005-54",
+				"Bezeichnung": "Zwischenebene Süd - Gleis Richtung Ebertplatz",
+				"Haltestellenbereich": "305",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b95",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95473139,
+					50.95881728
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "005-55",
+				"Bezeichnung": "Ausgang Lohsestr.",
+				"Haltestellenbereich": "305",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b94",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95515851,
+					50.95884193
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "005-56",
+				"Bezeichnung": "Ausgang Kempener Str.",
+				"Haltestellenbereich": "305",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b93",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95349951,
+					50.96513951
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-51",
+				"Bezeichnung": "Ausgang Mauenheimer Str.",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b92",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9538618,
+					50.96503425
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-52",
+				"Bezeichnung": "Ausgang Florastr.",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b91",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95371265,
+					50.96490918
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-53",
+				"Bezeichnung": "Zwischenebene Nord - Gleis Richtung Neusser Str./Gürtel",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b90",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95355721,
+					50.96490681
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-54",
+				"Bezeichnung": "Zwischenebene Nord - Gleis Richtung Lohsestr.",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b8f",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95387212,
+					50.96407531
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-55",
+				"Bezeichnung": "Zwischenebene Süd - Gleis Richtung Neusser Str./Gürtel",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b8e",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95372311,
+					50.96405792
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-56",
+				"Bezeichnung": "Zwischenebene Süd - Gleis Richtung Lohsestr.",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b8d",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95396078,
+					50.96380675
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-57",
+				"Bezeichnung": "Ausgang Nelkenstr./Wilhelmstr.",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b8c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95378978,
+					50.96379095
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "006-58",
+				"Bezeichnung": "Ausgang Viersener Str.",
+				"Haltestellenbereich": "304",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b8b",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95128376,
+					50.97224314
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-51",
+				"Bezeichnung": "Fahrtrichtung Florastr.",
+				"Haltestellenbereich": "303",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b8a",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95135839,
+					50.97226651
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-52",
+				"Bezeichnung": "Fahrtrichtung Amsterdamer Str./Gürtel abwärts",
+				"Haltestellenbereich": "303",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b89",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95192972,
+					50.97234076
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-53",
+				"Bezeichnung": "Fahrtrichtung Amsterdamer Str./Gürtel aufwärts",
+				"Haltestellenbereich": "303",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b88",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95085668,
+					50.97233073
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-54",
+				"Bezeichnung": "Fahrtrichtung Geldernstr./Parkgürtel aufwärts",
+				"Haltestellenbereich": "303",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b87",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95139274,
+					50.972398
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-55",
+				"Bezeichnung": "Fahrtrichtung Mollwitzstr.",
+				"Haltestellenbereich": "303",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b86",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95149194,
+					50.97242587
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-56",
+				"Bezeichnung": "Fahrtrichtung Geldernstr./Parkgürtel abwärts",
+				"Haltestellenbereich": "303",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b85",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95830189,
+					50.94225598
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-51",
+				"Bezeichnung": "Halle Hbf - Zwischenebene Ost",
+				"Haltestellenbereich": "8",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b84",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95796655,
+					50.94191837
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-52",
+				"Bezeichnung": "Zwischenebene Ost - Gleis 2 (Appellhofplatz) aufwärts",
+				"Haltestellenbereich": "8",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b83",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95799548,
+					50.94174754
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-53",
+				"Bezeichnung": "Zwischenebene Ost - Gleis 1 (Breslauer Platz/Rathaus)  aufwärts",
+				"Haltestellenbereich": "8",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b82",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95553606,
+					50.94188893
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-54",
+				"Bezeichnung": "Ausgang Andreaskloster",
+				"Haltestellenbereich": "8",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b81",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95647085,
+					50.94179762
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-55",
+				"Bezeichnung": "Zwischenebene West - Gleis 2 (Appellhofplatz)",
+				"Haltestellenbereich": "8",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b80",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95648741,
+					50.9416862
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-56",
+				"Bezeichnung": "Zwischenebene West - Gleis 1 (Breslauer Platz/Rathaus)",
+				"Haltestellenbereich": "8",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b7f",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95640874,
+					50.94146482
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-57",
+				"Bezeichnung": "Ausgang Hohe Str.",
+				"Haltestellenbereich": "8",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b7e",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95831605,
+					50.94224402
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-58",
+				"Bezeichnung": "Zwischenebene Ost - Halle Hbf",
+				"Haltestellenbereich": "8",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b7d",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95938407,
+					50.94380294
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-51",
+				"Bezeichnung": "Ausgang Breslauer Platz abwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b7c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95934645,
+					50.94378382
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-52",
+				"Bezeichnung": "Ausgang Breslauer Platz aufwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b7b",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95770943,
+					50.94501633
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-53",
+				"Bezeichnung": "Ausgang Eigelstein Fahrtrichtung abwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b7a",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95775373,
+					50.94503907
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-54",
+				"Bezeichnung": "Ausgang Eigelstein Fahrtrichtung aufwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b79",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95848089,
+					50.9448207
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-55",
+				"Bezeichnung": "Ausgang Domstr.",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b78",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95931031,
+					50.94402968
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-61",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 1,2 abwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b77",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95926664,
+					50.94400803
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-62",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 1,2 aufwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b76",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95879396,
+					50.9442096
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-63",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 3 abwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b75",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95875696,
+					50.94419102
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-64",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 3 aufwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b74",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95801726,
+					50.94477851
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-65",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 3 abwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b73",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95804267,
+					50.94478807
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-66",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 3 aufwärts",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b72",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95852807,
+					50.94459169
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-67",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 1,2",
+				"Haltestellenbereich": "9",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b71",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95979502,
+					50.93799707
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "013-51",
+				"Bezeichnung": "Ausgang Alter Markt/Unter Käster, abwärts",
+				"Haltestellenbereich": "6",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b70",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95977104,
+					50.93799902
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "013-52",
+				"Bezeichnung": "Ausgang Alter Markt/Unter Käster, aufwärts",
+				"Haltestellenbereich": "6",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b6f",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95974303,
+					50.938466
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "013-61",
+				"Bezeichnung": "Zwischenebene - Gleisebene Nord, wechselnd",
+				"Haltestellenbereich": "6",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b6e",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95969812,
+					50.93797507
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "013-62",
+				"Bezeichnung": "Zwischenebene - Gleisebene Süd, aufwärts",
+				"Haltestellenbereich": "6",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b6d",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.959675,
+					50.937976
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "013-63",
+				"Bezeichnung": "Zwischenebene - Gleisebene Süd, abfwärts",
+				"Haltestellenbereich": "6",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b6c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95894151,
+					50.93573743
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-51",
+				"Bezeichnung": "Ausgang Martinstr. /Gürzenich",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b6b",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95895095,
+					50.93537963
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-52",
+				"Bezeichnung": "Ausgang Pipinstr.",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b6a",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95633065,
+					50.93529718
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-53",
+				"Bezeichnung": "Ausgang Hohe Str./Schildergasse abwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b69",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95633401,
+					50.93531004
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-54",
+				"Bezeichnung": "Ausgang Hohe Str./Schildergasse aufwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b68",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95850801,
+					50.93552602
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-61",
+				"Bezeichnung": "Zwischenebene Ost (Gürzenich) -1 bis -2, abwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b67",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95848699,
+					50.93555697
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-62",
+				"Bezeichnung": "Zwischenebene Ost (Gürzenich) - 2 bis -1, aufwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b66",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.958567,
+					50.935439
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-63",
+				"Bezeichnung": "Zwischenebene Ost (Pipinstr.) -1 bis -2, abwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b65",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95858791,
+					50.93540907
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-64",
+				"Bezeichnung": "Zwischenebene Ost (Pipinstr.) - 2 bis -1, aufwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b64",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95708705,
+					50.93518995
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-65",
+				"Bezeichnung": "Zwischenebene West (Hohe Str.) -1 bis -2 , abwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b63",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95708299,
+					50.935204
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-66",
+				"Bezeichnung": "Zwischenebene West (Hohe Str.) - 2 bis -1, aufwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b62",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95800102,
+					50.935503
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-71",
+				"Bezeichnung": "Nord: Ebene - 2 bis Gleisebene, abwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b61",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.958029,
+					50.935491
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-72",
+				"Bezeichnung": "Nord: Gleisebene bis -2, aufwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b60",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95744599,
+					50.93501397
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "014-74",
+				"Bezeichnung": "Süd: Gleisebene bis -2, aufwärts",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b5f",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95754184,
+					50.92870209
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-51",
+				"Bezeichnung": "Ausgang An St. Katharinen abwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b5e",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95749178,
+					50.92868988
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-52",
+				"Bezeichnung": "Ausgang An St. Katharinen aufwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b5d",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95729302,
+					50.928948
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-53",
+				"Bezeichnung": "Zwischenebene Süd aufwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b5c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95704951,
+					50.92978631
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-61",
+				"Bezeichnung": "Ausgang Severinstr. aufwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b5b",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95725796,
+					50.928883
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-62",
+				"Bezeichnung": "Zwischenebene Süd aufwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b5a",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95725796,
+					50.928883
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-63",
+				"Bezeichnung": "Zwischenebene Süd abwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b59",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95699925,
+					50.92977908
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-64",
+				"Bezeichnung": "Ausgang Severinstr. abwärts",
+				"Haltestellenbereich": "11",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b58",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95863032,
+					50.92453504
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "017-51",
+				"Bezeichnung": "Ausgang Severinstr./Kartäuserhof abwärts",
+				"Haltestellenbereich": "894",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b57",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95855779,
+					50.92453179
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "017-52",
+				"Bezeichnung": "Ausgang Severinstr./Kartäuserhof aufwärts",
+				"Haltestellenbereich": "894",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b56",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95852634,
+					50.92489526
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "017-61",
+				"Bezeichnung": "Zwischenebene Süd abwärts",
+				"Haltestellenbereich": "894",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b55",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.958481,
+					50.92489311
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "017-62",
+				"Bezeichnung": "Zwischenebene Süd aufwärts",
+				"Haltestellenbereich": "894",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b54",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95849365,
+					50.92484105
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "017-63",
+				"Bezeichnung": "Zwischenebene zum Gleis Nord",
+				"Haltestellenbereich": "894",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b53",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95853747,
+					50.92484557
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "017-64",
+				"Bezeichnung": "Oberfläche zur Zwischenebene Nord",
+				"Haltestellenbereich": "894",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b52",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95932064,
+					50.92184239
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-51",
+				"Bezeichnung": "Ausgang Severinstor aufwärts",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b51",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96005204,
+					50.92123105
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-52",
+				"Bezeichnung": "Ausgang Ubierring Gleis 3",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b50",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96010721,
+					50.92113295
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-53",
+				"Bezeichnung": "Ausgang Ubierring Gleis 4",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b4f",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95977688,
+					50.92073362
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-54",
+				"Bezeichnung": "Ausgang Bonner Str.",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b4e",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95925861,
+					50.92096136
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-55",
+				"Bezeichnung": "Ausgang Merowinger Str.",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b4d",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95921624,
+					50.92119493
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-56",
+				"Bezeichnung": "Ausgang Karolingerring",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b4c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95925181,
+					50.92183647
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-57",
+				"Bezeichnung": "Ausgang Severinstor abwärts",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b4b",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95956396,
+					50.9214241
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-61",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 1,2, aufwärts",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b4a",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95956659,
+					50.9211528
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-62",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 1,2, aufwärts",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b49",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95962929,
+					50.92115799
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-63",
+				"Bezeichnung": "Zwischenebene Süd- Gleis 1,2, abwärts",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b48",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95949112,
+					50.92141586
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-64",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 1,2, abwärts",
+				"Haltestellenbereich": "18",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b47",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96131197,
+					50.91647892
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-51",
+				"Bezeichnung": "Ausgang Alteburger Wall",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b46",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96136398,
+					50.91559104
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-52",
+				"Bezeichnung": "Ausgang Bonner Str./Koblenzer Str.",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b45",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96108409,
+					50.91562296
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-53",
+				"Bezeichnung": "Ausgang Bonner Str. stadtauswärts",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b44",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96086975,
+					50.91655312
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-54",
+				"Bezeichnung": "Ausgang Bonner Wall",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b43",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96109696,
+					50.91633489
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-61",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 1",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b42",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96121958,
+					50.9158887
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-62",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 1",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b41",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9610653,
+					50.91588732
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-63",
+				"Bezeichnung": "Zwischenebene Süd - Gleis 2",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b40",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96094922,
+					50.91633827
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "019-64",
+				"Bezeichnung": "Zwischenebene Nord - Gleis 2",
+				"Haltestellenbereich": "20",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b3f",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95054997,
+					50.94011008
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "021-55",
+				"Bezeichnung": "Zwischenebene Nord - Gleis Richtung Dom/Friesenplatz",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b3e",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95036276,
+					50.94022945
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "021-56",
+				"Bezeichnung": "Zwischenebene Nord - Gleis Richtung Neumarkt",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b3d",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95067919,
+					50.93917108
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "021-57",
+				"Bezeichnung": "Zwischenebene Passage Breite Str. - Gleis Richtung Neumarkt",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b3c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95048238,
+					50.93917142
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "021-58",
+				"Bezeichnung": "Zwischenebene Passage Breite Str. - Gleis Richtung Dom/Friesenplatz",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b3b",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95059936,
+					50.94165261
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "022-51",
+				"Bezeichnung": "Ausgang Kattenbug/Zeughaus/Stadtmuseum",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b3a",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95086994,
+					50.94112359
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "022-52",
+				"Bezeichnung": "Zwischenebene zum Gleis Richtung Innenstadt (Linie 5)",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b39",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95035512,
+					50.94120604
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "022-53",
+				"Bezeichnung": "Zwischenebene - Gleis 3, Fahrtrichtung Dom/Hbf",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b38",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95086953,
+					50.94114081
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "022-54",
+				"Bezeichnung": "Ausgang Verwaltungsgericht/Burgmauer",
+				"Haltestellenbereich": "7",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b37",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9501887,
+					50.93124472
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "033-51",
+				"Bezeichnung": "Zwischenebene - Gleis Richtung Neumarkt",
+				"Haltestellenbereich": "3",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b36",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94847618,
+					50.9363865
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-51",
+				"Bezeichnung": "Ausgang Richmodstr./Neumarkt-Galerie abwärts",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b35",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94847708,
+					50.9364331
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-52",
+				"Bezeichnung": "Ausgang Richmodstr./Neumarkt-Galerie aufwärts",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b34",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94923091,
+					50.93637793
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-54",
+				"Bezeichnung": "Ausgang Schildergasse aufwärts",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b33",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94923256,
+					50.93642394
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-55",
+				"Bezeichnung": "Ausgang Schildergasse abwärts",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b32",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94910401,
+					50.93558413
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-56",
+				"Bezeichnung": "Gleis 1 - Hugo-Passage",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b31",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94886973,
+					50.93553518
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-57",
+				"Bezeichnung": "Gleis 2 - Hugo-Passage",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b30",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94847842,
+					50.93567179
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-58",
+				"Bezeichnung": "Ausgang Neumarkt, Gleis 3",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b2f",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94853193,
+					50.935802
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-59",
+				"Bezeichnung": "Ausgang Neumarkt, Gleis 4",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b2e",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94956109,
+					50.9346569
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-60",
+				"Bezeichnung": "Ausgang Josef-Haubrich-Hof, Gleis 1",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b2d",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94933411,
+					50.93460872
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-61",
+				"Bezeichnung": "Ausgang Josef-Haubrich-Hof, Gleis 2",
+				"Haltestellenbereich": "2",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b2c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.89760331,
+					51.02038432
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "041-51",
+				"Bezeichnung": "Ausgang Turkuplatz",
+				"Haltestellenbereich": "385",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b2b",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96885936,
+					50.97078448
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "051-51",
+				"Bezeichnung": "Fahrtrichtung Slabystr.",
+				"Haltestellenbereich": "317",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b2a",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96886345,
+					50.97091534
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "051-52",
+				"Bezeichnung": "Fahrtrichtung Neusser Str./Gürtel",
+				"Haltestellenbereich": "317",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b29",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93964698,
+					50.96836247
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "053-51",
+				"Bezeichnung": "Ausgang Parkgürtel - Fahrtrichtung Sülz",
+				"Haltestellenbereich": "325",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b28",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93968015,
+					50.96824599
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "053-52",
+				"Bezeichnung": "Ausgang Parkgürtel - Fahrtrichtung Holweide",
+				"Haltestellenbereich": "325",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b27",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94105858,
+					50.96851715
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "053-53",
+				"Bezeichnung": "Ausgang S-Bahn - Fahrtrichtung Sülz",
+				"Haltestellenbereich": "325",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b26",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94108789,
+					50.96841158
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "053-54",
+				"Bezeichnung": "Ausgang S-Bahn - Fahrtrichtung Holweide",
+				"Haltestellenbereich": "325",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b25",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93383891,
+					50.96458387
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "054-51",
+				"Bezeichnung": "Fahrtrichtung Holweide",
+				"Haltestellenbereich": "326",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b24",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93370397,
+					50.96464875
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "054-52",
+				"Bezeichnung": "Fahrtrichtung Sülz",
+				"Haltestellenbereich": "326",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b23",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00450882,
+					50.96175666
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-51",
+				"Bezeichnung": "Zwischenebene - Gleis 1,2 aufwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b22",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00451828,
+					50.96177147
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-52",
+				"Bezeichnung": "Zwischenebene - Gleis 1,2 abwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b21",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00528621,
+					50.9614961
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-53",
+				"Bezeichnung": "Ausgang Frankfurter Str. aufwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b20",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00529644,
+					50.9615089
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-54",
+				"Bezeichnung": "Ausgang Frankfurter Str. abwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b1f",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00404215,
+					50.96159186
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-55",
+				"Bezeichnung": "Zwischenebene - Gleis 3,4 aufwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b1e",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00406683,
+					50.96158329
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-56",
+				"Bezeichnung": "Zwischenebene - Gleis 3,4 abwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b1d",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.0039826,
+					50.96233903
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-57",
+				"Bezeichnung": "Ausgang Einkaufszentrum aufwärts",
+				"Haltestellenbereich": "570",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b1c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.01170711,
+					50.95736152
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "061-51",
+				"Bezeichnung": "Ausgang Frankfurter Str. aufwärts",
+				"Haltestellenbereich": "572",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b1b",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.01168783,
+					50.95734088
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "061-52",
+				"Bezeichnung": "Ausgang Frankfurter Str. abwärts",
+				"Haltestellenbereich": "572",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b1a",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.01285937,
+					50.95700569
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "061-53",
+				"Bezeichnung": "Ausgang Ackerstr. abwärts",
+				"Haltestellenbereich": "572",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b19",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.01283922,
+					50.95698142
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "061-54",
+				"Bezeichnung": "Ausgang Ackerstr. aufwärts",
+				"Haltestellenbereich": "572",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b18",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96026145,
+					50.93560399
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "081-51",
+				"Bezeichnung": "Bushaltestelle - Unterführung",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b17",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95938665,
+					50.93563612
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "081-52",
+				"Bezeichnung": "Gleis 3 - Zwischenebene",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b16",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9591203,
+					50.93585026
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "081-53",
+				"Bezeichnung": "Ausgang Martinstr. /Gürzenich",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b15",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95951889,
+					50.93572262
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "081-54",
+				"Bezeichnung": "Gleis 4 - Zwischenebene",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b14",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.960185,
+					50.936
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "081-55",
+				"Bezeichnung": "Ausgang Heumarkt",
+				"Haltestellenbereich": "1",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b13",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9786372,
+					50.93973172
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-51",
+				"Bezeichnung": "Zwischenebene Ost- Gleis 1, Richtung Deutzer Freiheit abwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b12",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9786233,
+					50.93970178
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-52",
+				"Bezeichnung": "Zwischenebene Ost - Gleis 1, Richtung Deutzer Freiheit aufwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b11",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97892868,
+					50.93929253
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-53",
+				"Bezeichnung": "Ausgang Stadthaus aufwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b10",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97867133,
+					50.93923307
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-54",
+				"Bezeichnung": "Ausgang Gleis 3, Richtung Koelnmesse, abwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b0f",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97863548,
+					50.93924861
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-55",
+				"Bezeichnung": "Ausgang Gleis 3, Richtung Koelnmesse, aufwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b0e",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97852859,
+					50.93928262
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-56",
+				"Bezeichnung": "Ausgang Gleis 3, Richtung Suevenstr., abwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b0d",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97848676,
+					50.93929919
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-57",
+				"Bezeichnung": "Ausgang Gleis 3, Richtung Suevenstr., aufwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b0c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97852212,
+					50.9394817
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-58",
+				"Bezeichnung": "Zwischenebene Ost - Gleis 2, Richtung Deutz Technische Hochschule aufwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b0b",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97853452,
+					50.93951207
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-59",
+				"Bezeichnung": "Zwischenebene Ost - Gleis 2, Richtung Deutz Technische Hochschule abwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b0a",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97720697,
+					50.93958023
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-60",
+				"Bezeichnung": "Ausgang Constatinhöfe/Bussteig B",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b09",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97725431,
+					50.93982356
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-61",
+				"Bezeichnung": "Zwischenebene West - Gleis 2, Richtung Deutz Technische Hochschule aufwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b08",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97724539,
+					50.93979093
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-62",
+				"Bezeichnung": "Zwischenebene  West  - Gleis 2, Richtung Deutz Technische Hochschule abwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b07",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97728804,
+					50.93992246
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-63",
+				"Bezeichnung": "Zwischenebene  West  - Gleis 1, Richtung Deutzer Freiheit abwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b06",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97731606,
+					50.9399502
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-64",
+				"Bezeichnung": "Zwischenebene  West  - Gleis 1, Richtung Deutzer Freiheit aufwärts",
+				"Haltestellenbereich": "41",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b05",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9858968,
+					50.93642774
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "084-51",
+				"Bezeichnung": "Oberfläche zur Zwischeneben Nord",
+				"Haltestellenbereich": "44",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b04",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.98603667,
+					50.93666146
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "084-52",
+				"Bezeichnung": "Oberfläche zur Zwischeneben Süd",
+				"Haltestellenbereich": "44",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b03",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.98557676,
+					50.93678952
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "084-53",
+				"Bezeichnung": "Zwischenebene zum Gleis Richtung Innenstadt",
+				"Haltestellenbereich": "44",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b02",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.985445,
+					50.93657734
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "084-54",
+				"Bezeichnung": "Zwischenebene zum Gleis stadtauswärts",
+				"Haltestellenbereich": "44",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b01",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.99877914,
+					50.93731922
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "091-51",
+				"Bezeichnung": "Ausgang Trimbornstr. aufwärts",
+				"Haltestellenbereich": "512",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7b00",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.99896885,
+					50.9376643
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "091-52",
+				"Bezeichnung": "Ausgang Köln Arcaden aufwärts",
+				"Haltestellenbereich": "512",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aff",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.99820693,
+					50.93763997
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "091-53",
+				"Bezeichnung": "Ausgang Köln Arcaden abwärts",
+				"Haltestellenbereich": "512",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7afe",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.99859934,
+					50.93744566
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "091-54",
+				"Bezeichnung": "Zwischenebene - Gleis Richtung Kalk Kapelle",
+				"Haltestellenbereich": "512",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7afd",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.99855215,
+					50.93762941
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "091-55",
+				"Bezeichnung": "Zwischenebene - Gleis Richtung Deutz Technische Hochschule",
+				"Haltestellenbereich": "512",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7afc",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00896564,
+					50.93893663
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-51",
+				"Bezeichnung": "Ausgang Kalker Hauptstr. Aufwärts",
+				"Haltestellenbereich": "513",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7afb",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00830477,
+					50.938646
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-52",
+				"Bezeichnung": "Ausgang Kapellenstr.",
+				"Haltestellenbereich": "513",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7afa",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00864855,
+					50.93914003
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-53",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus abwärts",
+				"Haltestellenbereich": "513",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7af9",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.0086596,
+					50.93910236
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-54",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus",
+				"Haltestellenbereich": "513",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7af8",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.0085138,
+					50.93877522
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-55",
+				"Bezeichnung": "Zwischenebene - Gleis Richtung Fuldaer Str.",
+				"Haltestellenbereich": "513",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7af7",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00842597,
+					50.93895723
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-56",
+				"Bezeichnung": "Zwischenebene - Gleis Richtung Kalk Post",
+				"Haltestellenbereich": "513",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7af6",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.02126732,
+					50.93272237
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "093-51",
+				"Bezeichnung": "Fahrtrichtung Ostheim",
+				"Haltestellenbereich": "521",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7af5",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.0212959,
+					50.93289284
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "093-52",
+				"Bezeichnung": "Fahrtrichtung Kalk Kapelle",
+				"Haltestellenbereich": "521",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7af4",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.02228136,
+					50.94148466
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "095-51",
+				"Bezeichnung": "Gleis Richtung Kalker Friedhof",
+				"Haltestellenbereich": "517",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7af3",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.02226971,
+					50.94165693
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "095-52",
+				"Bezeichnung": "Gleis Richtung Kalk Kapelle",
+				"Haltestellenbereich": "517",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7af2",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.16102592,
+					50.96395109
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "100-51",
+				"Bezeichnung": "Bahnsteigebene bis Zugang Gartenstr.",
+				"Haltestellenbereich": "665",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7af1",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.16130463,
+					50.96387193
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "100-52",
+				"Bezeichnung": "Ausgang Busbahnhof",
+				"Haltestellenbereich": "665",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7af0",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9388147,
+					50.93629548
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-51",
+				"Bezeichnung": "Zwischenebene - Gleis 2 abwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aef",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93886888,
+					50.93629634
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-52",
+				"Bezeichnung": "Zwischenebene - Gleis 2 aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aee",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93913511,
+					50.93629276
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-53",
+				"Bezeichnung": "Zwischenebene - Gleis 1 aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aed",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9391898,
+					50.93629111
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-54",
+				"Bezeichnung": "Zwischenebene - Gleis 1 abwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aec",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93882466,
+					50.93595647
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-55",
+				"Bezeichnung": "Ausgang Habsburgerring aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aeb",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93883399,
+					50.93677619
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-56",
+				"Bezeichnung": "Ausgang Hohenzollernring aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aea",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93944862,
+					50.93655119
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-57",
+				"Bezeichnung": "Ausgang Hohenzollernring/Mittelstr. abwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ae9",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9394433,
+					50.93658829
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-58",
+				"Bezeichnung": "Ausgang Hohenzollernring/Mittelstr. aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ae8",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9394133,
+					50.93617809
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-59",
+				"Bezeichnung": "Ausgang Habsburgerring/Hahnenstr. aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ae7",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93941332,
+					50.93621407
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-60",
+				"Bezeichnung": "Ausgang Habsburgerring/Hahnenstr. abwärts",
+				"Haltestellenbereich": "27",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ae6",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93974317,
+					50.94035435
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-51",
+				"Bezeichnung": "Ausgang Friesenplatz Süd aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ae5",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93979253,
+					50.94034918
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-52",
+				"Bezeichnung": "Ausgang Friesenplatz Süd abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ae4",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94009991,
+					50.94037348
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-53",
+				"Bezeichnung": "Ausgang Magnusstr. aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ae3",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9401423,
+					50.94036861
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-54",
+				"Bezeichnung": "Ausgang Magnusstr. abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ae2",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94024613,
+					50.94073688
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-55",
+				"Bezeichnung": "Ausgang Friesenstr. aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ae1",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94020611,
+					50.94074365
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-56",
+				"Bezeichnung": "Ausgang Friesenstr. abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ae0",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93991163,
+					50.94082848
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-57",
+				"Bezeichnung": "Ausgang Friesenplatz Nord aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7adf",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93988043,
+					50.94083443
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-58",
+				"Bezeichnung": "Ausgang Friesenplatz Nord abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ade",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94004837,
+					50.9406022
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-59",
+				"Bezeichnung": "Zwischenebene - Gleis 1 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7add",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94003315,
+					50.94057144
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-60",
+				"Bezeichnung": "Zwischenebene - Gleis 1 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7adc",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93981915,
+					50.94043296
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-61",
+				"Bezeichnung": "Zwischenebene - Gleis 2 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7adb",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93980492,
+					50.94040191
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-62",
+				"Bezeichnung": "Zwischenebene - Gleis 2 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ada",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94010279,
+					50.94046513
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-63",
+				"Bezeichnung": "Gleis 2 - Gleis 4 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ad9",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94006461,
+					50.94046833
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-64",
+				"Bezeichnung": "Gleis 2 - Gleis 4 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ad8",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93974116,
+					50.94040686
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-65",
+				"Bezeichnung": "Gleis 2 - Gleis 3 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ad7",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93969594,
+					50.94041846
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-66",
+				"Bezeichnung": "Gleis 2 - Gleis 3 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ad6",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93985049,
+					50.94075167
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-67",
+				"Bezeichnung": "Gleis 1 - Gleis 3 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ad5",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93989341,
+					50.94074563
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-68",
+				"Bezeichnung": "Gleis 1 - Gleis 3 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ad4",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94011242,
+					50.94066802
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-69",
+				"Bezeichnung": "Gleis 1 - Gleis 4 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ad3",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94015633,
+					50.9406651
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-70",
+				"Bezeichnung": "Gleis 1 - Gleis 4 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ad2",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93971522,
+					50.94021571
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-71",
+				"Bezeichnung": "Zwischenebene - Gleis 3",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ad1",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93974841,
+					50.94021371
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-72",
+				"Bezeichnung": "Zwischenebene - Gleis 3",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ad0",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94015878,
+					50.94079931
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-73",
+				"Bezeichnung": "Zwischenebene - Gleis 4",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7acf",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9401937,
+					50.94079678
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-74",
+				"Bezeichnung": "Zwischenebene - Gleis 4",
+				"Haltestellenbereich": "30",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ace",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94243549,
+					50.94451185
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "143-51",
+				"Bezeichnung": "Ausgang Kaiser-Wilhelm-Ring - Gleis Richtung Hansaring aufwärts",
+				"Haltestellenbereich": "32",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7acd",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94249018,
+					50.94448893
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "143-52",
+				"Bezeichnung": "Ausgang Kaiser-Wilhelm-Ring - Gleis Richtung Hansaring abwärts",
+				"Haltestellenbereich": "32",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7acc",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94214651,
+					50.94462208
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "143-53",
+				"Bezeichnung": "Ausgang Kaiser-Wilhelm-Ring - Gleis Richtung Friesenplatz aufwärts",
+				"Haltestellenbereich": "32",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7acb",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94210898,
+					50.94463792
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "143-54",
+				"Bezeichnung": "Ausgang Kaiser-Wilhelm-Ring - Gleis Richtung Friesenplatz abwärts",
+				"Haltestellenbereich": "32",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aca",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.89388732,
+					50.96080519
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "153-51",
+				"Bezeichnung": "Ausgang Weißdornweg aufwärts",
+				"Haltestellenbereich": "264",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ac9",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.89372641,
+					50.9606879
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "153-52",
+				"Bezeichnung": "Ausgang Weißdornweg abwärts",
+				"Haltestellenbereich": "264",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ac8",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.89431802,
+					50.96045799
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "153-53",
+				"Bezeichnung": "Zwischenebene - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "264",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ac7",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.89433198,
+					50.96046812
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "153-54",
+				"Bezeichnung": "Zwischenebene - Mittelbahnsteig abwärts",
+				"Haltestellenbereich": "264",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ac6",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.903371,
+					50.956583
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-51",
+				"Bezeichnung": "Zwischenebene stadteinwärts - Mittelbahnsteig abwärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ac5",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.903391,
+					50.956613
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-52",
+				"Bezeichnung": "Zwischenebene stadteinwärts - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ac4",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90193,
+					50.957082
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-53",
+				"Bezeichnung": "Zwischenebene stadtauswärts - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ac3",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90369061,
+					50.95645688
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-54",
+				"Bezeichnung": "Ausgang Äußere Kanalstr. stadteinwärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ac2",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90377084,
+					50.95656646
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-55",
+				"Bezeichnung": "Ausgang Äußere Kanalstr. stadtauswärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ac1",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90168532,
+					50.95724447
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-56",
+				"Bezeichnung": "Ausgang Rochusstr./Kapellchen stadtauswärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ac0",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90158436,
+					50.9571225
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "154-57",
+				"Bezeichnung": "Ausgang Rochusstr./Kapellchen stadteinwärts",
+				"Haltestellenbereich": "262",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7abf",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90987242,
+					50.9544824
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "155-51",
+				"Bezeichnung": "Zwischenebene Ost - Mittelbahnsteig abwärts",
+				"Haltestellenbereich": "255",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7abe",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90985157,
+					50.95445441
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "155-52",
+				"Bezeichnung": "Zwischenebene Ost - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "255",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7abd",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90828307,
+					50.95498032
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "155-53",
+				"Bezeichnung": "Zwischenebene West - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "255",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7abc",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90961502,
+					50.95442714
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "155-54",
+				"Bezeichnung": "Ausgang Leyendeckerstr.",
+				"Haltestellenbereich": "255",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7abb",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91029935,
+					50.95438045
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "155-55",
+				"Bezeichnung": "Ausgang Hospeltstr.",
+				"Haltestellenbereich": "255",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aba",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.90804715,
+					50.95501756
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "155-56",
+				"Bezeichnung": "Ausgang Richtung Gumprechtstraße",
+				"Haltestellenbereich": "255",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ab9",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91569625,
+					50.95121178
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-51",
+				"Bezeichnung": "Ausgang Bf. Ehrenfeld abwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ab8",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91570477,
+					50.95118454
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-52",
+				"Bezeichnung": "Ausgang Bf. Ehrenfeld aufwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ab7",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91536281,
+					50.95106514
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-53",
+				"Bezeichnung": "Zwischenebene Nord - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ab6",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91533004,
+					50.95104354
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-54",
+				"Bezeichnung": "Zwischenebene Nord - Mittelbahnsteig abwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ab5",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91630024,
+					50.95041737
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-55",
+				"Bezeichnung": "Ausgang Venloer Str./Helioshaus",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ab4",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91639949,
+					50.95002422
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-56",
+				"Bezeichnung": "Zwischenebene - Gleis 3 aufwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ab3",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91657733,
+					50.94994349
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-57",
+				"Bezeichnung": "Zwischenebene - Gleis 4 aufwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ab2",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91706692,
+					50.95002109
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-58",
+				"Bezeichnung": "Ausgang Venloer Str. Süd",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ab1",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91654502,
+					50.95029293
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-59",
+				"Bezeichnung": "Zwischenebene Süd - Mittelbahnsteig abwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7ab0",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91652633,
+					50.95028285
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-60",
+				"Bezeichnung": "Zwischenebene Süd - Mittelbahnsteig aufwärts",
+				"Haltestellenbereich": "251",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aaf",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91999034,
+					50.94850009
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "157-51",
+				"Bezeichnung": "Ausgang Klarastr.",
+				"Haltestellenbereich": "237",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aae",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92078649,
+					50.94807859
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "157-52",
+				"Bezeichnung": "Ausgang Geisselstr.",
+				"Haltestellenbereich": "237",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aad",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92037701,
+					50.94827296
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "157-53",
+				"Bezeichnung": "Gleisebene - Zwischenebene",
+				"Haltestellenbereich": "237",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aac",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92036574,
+					50.94826185
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "157-54",
+				"Bezeichnung": "Zwischenebene - Gleisebene",
+				"Haltestellenbereich": "237",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aab",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92556183,
+					50.94617674
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "158-51",
+				"Bezeichnung": "Ausgang Piusstr.",
+				"Haltestellenbereich": "236",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aaa",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92592996,
+					50.94594105
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "158-53",
+				"Bezeichnung": "Zwischenebene - Gleisebene",
+				"Haltestellenbereich": "236",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aa9",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.92594195,
+					50.945951
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "158-54",
+				"Bezeichnung": "Gleisebene - Zwischenebene",
+				"Haltestellenbereich": "236",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aa8",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93304517,
+					50.94360486
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-51",
+				"Bezeichnung": "Ausgang Hans-Böckler-Platz abwärts",
+				"Haltestellenbereich": "31",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aa7",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93306677,
+					50.94362554
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-52",
+				"Bezeichnung": "Ausgang Hans-Böckler-Platz aufwärts",
+				"Haltestellenbereich": "31",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aa6",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93300344,
+					50.94359537
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-53",
+				"Bezeichnung": "Zwischenebene - Gleis 2",
+				"Haltestellenbereich": "31",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aa5",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93297909,
+					50.94357398
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-54",
+				"Bezeichnung": "Zwischenebene - Gleis 2",
+				"Haltestellenbereich": "31",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aa4",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93286634,
+					50.94349753
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-55",
+				"Bezeichnung": "Zwischenebene - Gleis 1",
+				"Haltestellenbereich": "31",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aa3",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93284277,
+					50.94348053
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-56",
+				"Bezeichnung": "Zwischenebene - Gleis 1",
+				"Haltestellenbereich": "31",
+				"Info": null
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen.fid--452c479f_16839f22024_-7aa2",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93247291,
+					50.94364482
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-57",
+				"Bezeichnung": "Ausgang Venloer Str./Grüngürtel",
+				"Haltestellenbereich": "31",
+				"Info": null
+			}
+		}
+	],
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:EPSG::4326"
+		}
+	}
+}

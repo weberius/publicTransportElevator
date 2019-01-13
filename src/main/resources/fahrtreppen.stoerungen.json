@@ -1,0 +1,658 @@
+{
+	"type": "FeatureCollection",
+	"totalFeatures": 34,
+	"features": [
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cd3",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95192972,
+					50.97234076
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "007-53",
+				"Bezeichnung": "Fahrtrichtung Amsterdamer Str./Gürtel aufwärts",
+				"Haltestellenbereich": "303",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cd2",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9584376,
+					50.95099937
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-53",
+				"Bezeichnung": "Ausgang Riehler Str. Nord",
+				"Haltestellenbereich": "35",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cd1",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.91657733,
+					50.94994349
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "156-57",
+				"Bezeichnung": "Zwischenebene - Gleis 4 aufwärts",
+				"Haltestellenbereich": "251",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cd0",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.02126732,
+					50.93272237
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "093-51",
+				"Bezeichnung": "Fahrtrichtung Ostheim",
+				"Haltestellenbereich": "521",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7ccf",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93981915,
+					50.94043296
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-61",
+				"Bezeichnung": "Zwischenebene - Gleis 2 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cce",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.97867133,
+					50.93923307
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "083-54",
+				"Bezeichnung": "Ausgang Gleis 3, Richtung Koelnmesse, abwärts",
+				"Haltestellenbereich": "41",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7ccd",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94847842,
+					50.93567179
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-58",
+				"Bezeichnung": "Ausgang Neumarkt, Gleis 3",
+				"Haltestellenbereich": "2",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7ccc",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.0039826,
+					50.96233903
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-57",
+				"Bezeichnung": "Ausgang Einkaufszentrum aufwärts",
+				"Haltestellenbereich": "570",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7ccb",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93247291,
+					50.94364482
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-57",
+				"Bezeichnung": "Ausgang Venloer Str./Grüngürtel",
+				"Haltestellenbereich": "31",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cca",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94243549,
+					50.94451185
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "143-51",
+				"Bezeichnung": "Ausgang Kaiser-Wilhelm-Ring - Gleis Richtung Hansaring aufwärts",
+				"Haltestellenbereich": "32",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cc9",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95648741,
+					50.9416862
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-56",
+				"Bezeichnung": "Zwischenebene West - Gleis 1 (Breslauer Platz/Rathaus)",
+				"Haltestellenbereich": "8",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cc8",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93989341,
+					50.94074563
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-68",
+				"Bezeichnung": "Gleis 1 - Gleis 3 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cc7",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93913511,
+					50.93629276
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-53",
+				"Bezeichnung": "Zwischenebene - Gleis 1 aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cc6",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95770943,
+					50.94501633
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "012-53",
+				"Bezeichnung": "Ausgang Eigelstein Fahrtrichtung abwärts",
+				"Haltestellenbereich": "9",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cc5",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94923256,
+					50.93642394
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-55",
+				"Bezeichnung": "Ausgang Schildergasse abwärts",
+				"Haltestellenbereich": "2",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cc4",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94010279,
+					50.94046513
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-63",
+				"Bezeichnung": "Gleis 2 - Gleis 4 aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cc3",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00864855,
+					50.93914003
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-53",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus abwärts",
+				"Haltestellenbereich": "513",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cc2",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94249018,
+					50.94448893
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "143-52",
+				"Bezeichnung": "Ausgang Kaiser-Wilhelm-Ring - Gleis Richtung Hansaring abwärts",
+				"Haltestellenbereich": "32",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cc1",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93304517,
+					50.94360486
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-51",
+				"Bezeichnung": "Ausgang Hans-Böckler-Platz abwärts",
+				"Haltestellenbereich": "31",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cc0",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95749178,
+					50.92868988
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "016-52",
+				"Bezeichnung": "Ausgang An St. Katharinen aufwärts",
+				"Haltestellenbereich": "11",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cbf",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.0086596,
+					50.93910236
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-54",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus",
+				"Haltestellenbereich": "513",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cbe",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93980492,
+					50.94040191
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-62",
+				"Bezeichnung": "Zwischenebene - Gleis 2 abwärts",
+				"Haltestellenbereich": "30",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cbd",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95072785,
+					50.94835681
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "001-51",
+				"Bezeichnung": "Ausgang Ritterstr. Fahrtrichtung Ebertplatz",
+				"Haltestellenbereich": "36",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cbc",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9394133,
+					50.93617809
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-59",
+				"Bezeichnung": "Ausgang Habsburgerring/Hahnenstr. aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cbb",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00529644,
+					50.9615089
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-54",
+				"Bezeichnung": "Ausgang Frankfurter Str. abwärts",
+				"Haltestellenbereich": "570",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cba",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00528621,
+					50.9614961
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "060-53",
+				"Bezeichnung": "Ausgang Frankfurter Str. aufwärts",
+				"Haltestellenbereich": "570",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cb9",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9591203,
+					50.93585026
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "081-53",
+				"Bezeichnung": "Ausgang Martinstr. /Gürzenich",
+				"Haltestellenbereich": "1",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cb8",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95048238,
+					50.93917142
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "021-58",
+				"Bezeichnung": "Zwischenebene Passage Breite Str. - Gleis Richtung Dom/Friesenplatz",
+				"Haltestellenbereich": "7",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cb7",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93886888,
+					50.93629634
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-52",
+				"Bezeichnung": "Zwischenebene - Gleis 2 aufwärts",
+				"Haltestellenbereich": "27",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cb6",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9391898,
+					50.93629111
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "141-54",
+				"Bezeichnung": "Zwischenebene - Gleis 1 abwärts",
+				"Haltestellenbereich": "27",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cb5",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.96010721,
+					50.92113295
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "018-53",
+				"Bezeichnung": "Ausgang Ubierring Gleis 4",
+				"Haltestellenbereich": "18",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cb4",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94024613,
+					50.94073688
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "142-55",
+				"Bezeichnung": "Ausgang Friesenstr. aufwärts",
+				"Haltestellenbereich": "30",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cb3",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.95796655,
+					50.94191837
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "011-52",
+				"Bezeichnung": "Zwischenebene Ost - Gleis 2 (Appellhofplatz) aufwärts",
+				"Haltestellenbereich": "8",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid--452c479f_16839f22024_-7cb2",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94923091,
+					50.93637793
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "034-54",
+				"Bezeichnung": "Ausgang Schildergasse aufwärts",
+				"Haltestellenbereich": "2",
+				"Info": null,
+				"timestamp": "2019-01-11T05:16:29Z"
+			}
+		}
+	],
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:EPSG::4326"
+		}
+	}
+}
