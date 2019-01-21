@@ -11,7 +11,6 @@ import java.util.List;
 
 import org.apache.commons.dbutils.DbUtils;
 import org.apache.commons.io.IOUtils;
-import org.h2gis.ext.H2GISExtension;
 import org.h2gis.functions.io.geojson.GeoJsonRead;
 import org.junit.After;
 import org.junit.Before;
@@ -20,6 +19,7 @@ import org.junit.Test;
 
 import de.illilli.jdbc.ConnectionFactory;
 import de.illilli.jdbc.InsertDao;
+import de.illilli.jdbc.SelectDao;
 import de.illilli.jdbc.SelectListDao;
 import de.illilli.opendata.service.Converter;
 import de.illilli.opendata.service.publicTransportElevator.converter.Dto2Elevator;
@@ -28,6 +28,10 @@ import de.illilli.opendata.service.publicTransportElevator.converter.Url2Elevato
 import de.illilli.opendata.service.publicTransportElevator.jdbc.ElevatorDTO;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.InsertElevator;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.SelectElevator;
+import de.illilli.opendata.service.publicTransportElevator.jdbc.SelectVersion;
+import de.illilli.opendata.service.publicTransportElevator.jdbc.ShowTables;
+import de.illilli.opendata.service.publicTransportElevator.jdbc.TableNamesDTO;
+import de.illilli.opendata.service.publicTransportElevator.jdbc.VersionDTO;
 import de.illilli.opendata.service.publicTransportElevator.model.Elevator;
 
 public class Main {
@@ -40,14 +44,22 @@ public class Main {
 		Class.forName("org.h2.Driver");
 		// connection = DriverManager.getConnection("jdbc:h2:mem:syntax", "sa", "sa");
 		this.connection = ConnectionFactory.getConnection();
-		// die extensions dürfen nur einmal installiert werden
-		H2GISExtension.load(connection);
 		// initialize Database
 		Statement st = connection.createStatement();
+
 		String sqlFileName = "/sql/init.sql";
 		InputStream inputStream = Main.class.getResourceAsStream(sqlFileName);
 		String sql = IOUtils.toString(inputStream);
 		st.execute(sql);
+
+		// check for tableNames
+		List<TableNamesDTO> tableNames = new SelectListDao<TableNamesDTO>(new ShowTables(), connection).execute();
+		for (TableNamesDTO tableName : tableNames) {
+			System.out.println(tableName);
+		}
+		// check for version
+		VersionDTO version = new SelectDao<VersionDTO>(new SelectVersion(), connection).execute();
+		System.out.println(version);
 
 	}
 
