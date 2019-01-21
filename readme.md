@@ -79,11 +79,11 @@ Beispiel [/publicTransportElevator/stop/{id}](http://localhost:8080/publicTransp
 
 	CREATE TABLE elevator (
 	    id VARCHAR(10) NOT NULL,
-	    bezeichnung VARCHAR(64),
+	    bezeichnung VARCHAR(128),
 	    haltestellenbereich INT,
 	    info VARCHAR(256),
 	    geom POINT
-	);	
+	);
 
 ### interruption
 
