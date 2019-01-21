@@ -8,10 +8,12 @@ Dieses Projekt befindet sich in der Entwicklung
 
 # Technologien/ Bibliotheken
 
-- Java
 - Apache Commons
-- Opendatalab GeoJson
+- Apache DBUtils
 - Google Gson
+- H2GIS
+- Java
+- Opendatalab GeoJson
 
 # Fachliche Objekte
 
@@ -23,23 +25,12 @@ Das Objekt Elevator bildet einen Aufzug ab. Es enhält folgende Informationen:
 - bezeichnung: Beschreibung der Fahrtreppe;
 - haltestellenbereich: Die id die zur Erkennung der Halterstelle verwendet werden kann;
 - info: zusätzliche Informationen, zur Zeit nicht genutzt;
+- coordinate: latitude, longitude
 
-## Geometrie
-
-Das Objekt Geometrie bildet einen Ort ab.
-
-- id: Eindeutige ID des Datensatzes
-- elevatorid: Die Elevator-ID;
-- type: Type des geometrischen Objektes;
-- lat: Latitude des geometrischen Objektes;
-- lng: Longitude des geometrischen Objektes;
-- epsg: Projektion
-	
 ## Interruption
 
 Das Objekt Interruption stellt die Unterbrechung einer Fahrtreppe dar. Es können je Fahrtreppe mehrere Einträge vorhanden sein.
 
-- id: Eindeutige ID des Datensatzes
 - elevatorid: Die Elevator-ID; 
 - start: Zeitstempel für das erste Feststellen der Unterbrechung
 - stop: Zeitstempel für das letzte Feststellen der Unterbrechung
