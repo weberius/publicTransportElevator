@@ -1,0 +1,1 @@
+SELECT H2VERSION() as h2version, H2GISVERSION() as h2gisversion;
