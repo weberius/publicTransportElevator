@@ -1,4 +1,4 @@
-package de.illilli.opendata.service.publicTransportElevator;
+package de.illilli.opendata.service.publicTransportElevator.converter;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,20 +13,17 @@ import org.geojson.Point;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.gson.Gson;
 
 import de.illilli.opendata.service.AskFor;
 import de.illilli.opendata.service.Converter;
 import de.illilli.opendata.service.publicTransportElevator.askfor.AskForElevators;
+import de.illilli.opendata.service.publicTransportElevator.model.Coordinate;
 import de.illilli.opendata.service.publicTransportElevator.model.Elevator;
-import de.illilli.opendata.service.publicTransportElevator.model.Geometrie;
 
 /**
- * 
- * @author wolfram
- *
+ * Converts the data given by url to an List of Elevators.
  */
-public class ElevatorConverter implements Converter<List<Elevator>, URL, String> {
+public class Url2ElevatorList implements Converter<List<Elevator>, URL> {
 
 	@Override
 	public List<Elevator> getAsObject(URL value) {
@@ -58,21 +55,13 @@ public class ElevatorConverter implements Converter<List<Elevator>, URL, String>
 
 			if (feature.getGeometry() instanceof Point) {
 				Point point = (Point) feature.getGeometry();
-				Geometrie geometrie = new Geometrie();
-				geometrie.setType("Point");
-				geometrie.setLat(point.getCoordinates().getLatitude());
-				geometrie.setLng(point.getCoordinates().getLongitude());
-				elevator.setGeometrie(geometrie);
+				elevator.setCoordinate(
+						new Coordinate(point.getCoordinates().getLatitude(), point.getCoordinates().getLongitude()));
 			}
 
 			data.add(elevator);
 		}
 		return data;
-	}
-
-	@Override
-	public String getAsString(List<Elevator> value) {
-		return new Gson().toJson(value);
 	}
 
 }

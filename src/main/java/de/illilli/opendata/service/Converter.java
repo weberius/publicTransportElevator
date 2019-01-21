@@ -8,10 +8,8 @@ package de.illilli.opendata.service;
  * @param <U>
  * @param <V>
  */
-public interface Converter<T, U, V> {
+public interface Converter<T, U> {
 
 	T getAsObject(U value);
-
-	V getAsString(T value);
 
 }

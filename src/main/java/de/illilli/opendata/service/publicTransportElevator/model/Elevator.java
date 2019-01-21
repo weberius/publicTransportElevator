@@ -6,7 +6,7 @@ public class Elevator {
 	private String id;
 	private int haltestellenbereich;
 	private String info;
-	private Geometrie geometrie;
+	private Coordinate coordinate;
 
 	public String getBezeichnung() {
 		return bezeichnung;
@@ -40,12 +40,12 @@ public class Elevator {
 		this.info = info;
 	}
 
-	public Geometrie getGeometrie() {
-		return geometrie;
+	public Coordinate getCoordinate() {
+		return coordinate;
 	}
 
-	public void setGeometrie(Geometrie geometrie) {
-		this.geometrie = geometrie;
+	public void setCoordinate(Coordinate geometrie) {
+		this.coordinate = geometrie;
 	}
 
 	@Override

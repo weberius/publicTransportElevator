@@ -78,31 +78,20 @@ Beispiel [/publicTransportElevator/stop/{id}](http://localhost:8080/publicTransp
 ### elevator
 
 	CREATE TABLE elevator (
-	    id character varying(10) NOT NULL,
-	    bezeichnung character varying(64),
-	    haltestellenbereich integer,
-	    info character varying(256)
-	);	
-
-### geometrie
-
-	CREATE TABLE geometrie (
-	    id integer NOT NULL,
-	    lat double precision,
-	    lon double precision,
-	    type character varying(32),
-	    epsg character varying(16)
+	    id VARCHAR(10) NOT NULL,
+	    bezeichnung VARCHAR(64),
+	    haltestellenbereich INT,
+	    info VARCHAR(256),
+	    geom POINT
 	);	
 
 ### interruption
 
-	CREATE TABLE geometrie (
-	    id integer NOT NULL,
-	    elevatorid character varying(32),
-	    start character varying(16),
-	    stop character varying(16)
+	CREATE TABLE interruption (
+	    elevatorid VARCHAR(32),
+	    start DATE,
+	    stop DATE
 	);	
-
 
 # Installation
 
