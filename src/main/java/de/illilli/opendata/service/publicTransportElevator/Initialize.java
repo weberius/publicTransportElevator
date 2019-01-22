@@ -49,6 +49,7 @@ public class Initialize implements ServletContextListener {
 			this.connection = ConnectionFactory.getConnection();
 			Statement st = connection.createStatement();
 
+			// initialize Database
 			String sqlFileName = "/sql/init.sql";
 			InputStream inputStream = Initialize.class.getResourceAsStream(sqlFileName);
 			String sql = IOUtils.toString(inputStream);
@@ -59,11 +60,12 @@ public class Initialize implements ServletContextListener {
 			for (TableNamesDTO tableName : tableNames) {
 				System.out.println(tableName);
 			}
+
 			// check for version
 			VersionDTO version = new SelectDao<VersionDTO>(new SelectVersion(), connection).execute();
 			System.out.println(version);
 
-			// initialize Database
+			// read from file
 			URL url = this.getClass().getClassLoader().getResource("fahrtreppen.json");
 			Converter<List<Elevator>, URL> converter = new Url2ElevatorList();
 			List<Elevator> elevatorList = converter.getAsObject(url);
