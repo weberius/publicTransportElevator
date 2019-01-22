@@ -1,7 +1,9 @@
 package de.illilli.opendata.service.publicTransportElevator;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
+import javax.naming.NamingException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.GET;
@@ -53,10 +55,13 @@ public class Service {
 	 * 
 	 * @return
 	 * @throws IOException
+	 * @throws NamingException
+	 * @throws SQLException
+	 * @throws ClassNotFoundException
 	 */
 	@GET
 	@Produces({ MediaType.APPLICATION_JSON })
-	public Response getElevators() throws IOException {
+	public Response getElevators() throws IOException, ClassNotFoundException, SQLException, NamingException {
 
 		Facade facade = null;
 

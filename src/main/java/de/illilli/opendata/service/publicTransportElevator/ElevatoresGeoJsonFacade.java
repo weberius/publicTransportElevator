@@ -1,9 +1,11 @@
 package de.illilli.opendata.service.publicTransportElevator;
 
 import java.io.IOException;
-import java.net.URL;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.naming.NamingException;
 
 import org.geojson.Feature;
 import org.geojson.FeatureCollection;
@@ -19,16 +21,8 @@ public class ElevatoresGeoJsonFacade extends ElevatorsFacade {
 	private FeatureCollection featureCollection = new FeatureCollection();
 	private List<Feature> featureList = new ArrayList<Feature>();
 
-	public ElevatoresGeoJsonFacade() throws IOException {
+	public ElevatoresGeoJsonFacade() throws IOException, ClassNotFoundException, SQLException, NamingException {
 		super();
-		for (Elevator elevator : super.data) {
-			featureList.add(new Elevator2Feature().getAsObject(elevator));
-		}
-		featureCollection.addAll(featureList);
-	}
-
-	public ElevatoresGeoJsonFacade(URL url) throws IOException {
-		super(url);
 		for (Elevator elevator : super.data) {
 			featureList.add(new Elevator2Feature().getAsObject(elevator));
 		}
