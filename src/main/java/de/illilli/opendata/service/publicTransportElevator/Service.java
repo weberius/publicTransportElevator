@@ -15,10 +15,14 @@ import javax.ws.rs.core.Response.Status;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 
+import de.illilli.opendata.service.Config;
 import de.illilli.opendata.service.Facade;
 
 @Path("elevators")
 public class Service {
+
+	// private final static Logger logger = Logger.getLogger(Service.class);
+	public static final String ENCODING = Config.getProperty("encoding");
 
 	@Context
 	private HttpServletRequest request;
@@ -54,7 +58,15 @@ public class Service {
 	@Produces({ MediaType.APPLICATION_JSON })
 	public Response getElevators() throws IOException {
 
-		Facade facade = new ElevatorsFacade();
+		Facade facade = null;
+
+		String format = request.getParameter("format");
+		if (Format.geojson.name().equals(format)) {
+			facade = new ElevatoresGeoJsonFacade();
+		} else {
+			facade = new ElevatorsFacade();
+		}
+
 		return Response.status(Status.OK).entity(facade.getJson()).build();
 
 	}

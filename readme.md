@@ -45,6 +45,10 @@ Diese Schnittstelle gibt alle Haltestellen mit allen Informationen im JSON-Forma
 
 Beispiel [/publicTransportElevator/elevators](http://localhost:8080/publicTransportElevator/elevators)
 
+format: json, geojson
+
+Beispiel [/publicTransportElevator/elevators?format=geojson](http://localhost:8080/publicTransportElevator/elevators?format=geojson)
+
 ## TODO: /publicTransportElevator/elevators/{id}
 
 Diese Schnittstelle gibt die Daten einer Fahrtreppen mit allen Informationen im JSON-Format zurück.
