@@ -41,26 +41,41 @@ public class Main {
 	@Before
 	public void setupDB() throws Exception {
 
+		boolean initialzed = false;
+
 		Class.forName("org.h2.Driver");
 		// connection = DriverManager.getConnection("jdbc:h2:mem:syntax", "sa", "sa");
 		this.connection = ConnectionFactory.getConnection();
 		// initialize Database
 		Statement st = connection.createStatement();
 
-		String sqlFileName = "/sql/init.sql";
-		InputStream inputStream = Main.class.getResourceAsStream(sqlFileName);
-		String sql = IOUtils.toString(inputStream);
-		st.execute(sql);
-
 		// check for tableNames
-		List<TableNamesDTO> tableNames = new SelectListDao<TableNamesDTO>(new ShowTables(), connection).execute();
-		for (TableNamesDTO tableName : tableNames) {
-			System.out.println(tableName);
+		try {
+			List<TableNamesDTO> tableNames = new SelectListDao<TableNamesDTO>(new ShowTables(), connection).execute();
+			for (TableNamesDTO tableName : tableNames) {
+				System.out.println(tableName);
+				initialzed = true;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
-		// check for version
-		VersionDTO version = new SelectDao<VersionDTO>(new SelectVersion(), connection).execute();
-		System.out.println(version);
 
+		// check for version
+		try {
+			VersionDTO version = new SelectDao<VersionDTO>(new SelectVersion(), connection).execute();
+			System.out.println(version);
+			initialzed = true;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		// initiliaze Database
+		if (!initialzed) {
+			String sqlFileName = "/sql/init.sql";
+			InputStream inputStream = Main.class.getResourceAsStream(sqlFileName);
+			String sql = IOUtils.toString(inputStream);
+			st.execute(sql);
+		}
 	}
 
 	@After
