@@ -1,7 +1,6 @@
 package de.illilli.opendata.service.publicTransportElevator;
 
 import java.io.IOException;
-import java.net.URL;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -25,7 +24,6 @@ import de.illilli.opendata.service.publicTransportElevator.model.Elevator;
 public class ElevatorsFacade implements Facade {
 
 	List<Elevator> data = new ArrayList<Elevator>();
-	Converter<List<Elevator>, URL> converter = new Url2ElevatorList();
 
 	public ElevatorsFacade() throws IOException, SQLException, ClassNotFoundException, NamingException {
 
@@ -38,6 +36,19 @@ public class ElevatorsFacade implements Facade {
 			data.add(elevator);
 		}
 	}
+	
+	public ElevatorsFacade(String id) throws IOException, SQLException, ClassNotFoundException, NamingException {
+
+		Connection connection = ConnectionFactory.getConnection();
+
+		// read from database
+		List<ElevatorDTO> dtoList = new SelectListDao<ElevatorDTO>(new SelectElevatorById(id), connection).execute();
+		for (ElevatorDTO dto : dtoList) {
+			Elevator elevator = new Dto2Elevator().getAsObject(dto);
+			data.add(elevator);
+		}
+	}
+
 
 	@Override
 	public String getJson() throws JsonProcessingException {
