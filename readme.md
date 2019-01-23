@@ -49,11 +49,15 @@ format: json, geojson
 
 Beispiel [/publicTransportElevator/elevators?format=geojson](http://localhost:8080/publicTransportElevator/elevators?format=geojson)
 
-## TODO: /publicTransportElevator/elevators/{id}
+##/publicTransportElevator/elevators/{id}
 
 Diese Schnittstelle gibt die Daten einer Fahrtreppen mit allen Informationen im JSON-Format zurück.
 
 Beispiel [/publicTransportElevator/elevators/{id}](http://localhost:8080/publicTransportElevator/elevators/001-51)
+
+format: json, geojson
+
+Beispiel [/publicTransportElevator/elevators/{id}?format=geojson](http://localhost:8080/publicTransportElevator/elevators/001-51?format=geojson)
 
 ## TODO: /publicTransportElevator/stop/{id}
 
