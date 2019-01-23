@@ -49,7 +49,7 @@ format: json, geojson
 
 Beispiel [/publicTransportElevator/elevators?format=geojson](http://localhost:8080/publicTransportElevator/elevators?format=geojson)
 
-##/publicTransportElevator/elevators/{id}
+## /publicTransportElevator/elevators/{id}
 
 Diese Schnittstelle gibt die Daten einer Fahrtreppen mit allen Informationen im JSON-Format zurück.
 
@@ -59,11 +59,15 @@ format: json, geojson
 
 Beispiel [/publicTransportElevator/elevators/{id}?format=geojson](http://localhost:8080/publicTransportElevator/elevators/001-51?format=geojson)
 
-## TODO: /publicTransportElevator/stop/{id}
+## /publicTransportElevator/stop/{id}
 
 Diese Schnittstelle gibt die Daten aller Fahrtreppen einer Haltestelle mit allen Informationen im JSON-Format zurück. Die Haltestellen werden per 'id' identifiziert.
 
-Beispiel [/publicTransportElevator/stop/{id}](http://localhost:8080/publicTransportElevator/stop/001-51)
+Beispiel [/publicTransportElevator/stop/{id}](http://localhost:8080/publicTransportElevator/stop/9)
+
+format: json, geojson
+
+Beispiel [/publicTransportElevator/stop/{id}?format=geojson](http://localhost:8080/publicTransportElevator/stop/9?format=geojson)
 
 # Daten
 
