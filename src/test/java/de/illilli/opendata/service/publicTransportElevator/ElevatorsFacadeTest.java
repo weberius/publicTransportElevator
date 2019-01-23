@@ -8,9 +8,13 @@ import javax.naming.NamingException;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
+
+import com.test.annotation.type.IntegrationTest;
 
 import de.illilli.opendata.service.Facade;
 
+@Category(IntegrationTest.class)
 public class ElevatorsFacadeTest extends Main {
 
 	@Test

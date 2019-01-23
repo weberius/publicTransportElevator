@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.GET;
 import javax.ws.rs.HEAD;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
@@ -76,4 +77,21 @@ public class Service {
 
 	}
 
+	@GET
+	@Produces({ MediaType.APPLICATION_JSON })
+	@Path("{id}")
+	public Response getElevators(@PathParam("id") String id) throws IOException, ClassNotFoundException, SQLException, NamingException {
+
+		Facade facade = null;
+
+		String format = request.getParameter("format");
+		if (Format.geojson.name().equals(format)) {
+			facade = new ElevatoresGeoJsonFacade(id);
+		} else {
+			facade = new ElevatorsFacade(id);
+		}
+
+		return Response.status(Status.OK).entity(facade.getJson()).build();
+
+	}
 }
