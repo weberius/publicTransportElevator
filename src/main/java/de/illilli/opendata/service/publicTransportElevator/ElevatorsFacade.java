@@ -19,6 +19,7 @@ import de.illilli.opendata.service.publicTransportElevator.converter.Dto2Elevato
 import de.illilli.opendata.service.publicTransportElevator.converter.Url2ElevatorList;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.ElevatorDTO;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.SelectElevator;
+import de.illilli.opendata.service.publicTransportElevator.jdbc.SelectElevatorById;
 import de.illilli.opendata.service.publicTransportElevator.model.Elevator;
 
 public class ElevatorsFacade implements Facade {
