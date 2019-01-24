@@ -93,7 +93,8 @@ Beispiel [/publicTransportElevator/stop/{id}?format=geojson](http://localhost:80
 	CREATE TABLE interruption (
 	    elevatorid VARCHAR(32),
 	    start DATE,
-	    stop DATE
+	    stop DATE,
+	    period INT
 	);	
 
 # Installation
