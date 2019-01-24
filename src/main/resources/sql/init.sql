@@ -12,5 +12,6 @@ CREATE TABLE elevator (
 CREATE TABLE interruption (
     elevatorid VARCHAR(32),
     start DATE,
-    stop DATE
+    stop DATE,
+    period INT
 );	
