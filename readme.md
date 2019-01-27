@@ -71,6 +71,8 @@ Beispiel [/publicTransportElevator/stop/{id}?format=geojson](http://localhost:80
 
 # Daten
 
+Die Applikaton beruht auf den Daten der KVB. Die Daten sehen nach geojson aus. Die Geojson Parser werfen ohne Anpassungen einen Fehler. Darüber hinaus ist es möglich, dass Daten doppelt vorkommen. Diese müssen ggf. ausgefiltert werden.
+
 - [Fahrtreppen KVB Koeln im json Format](https://online-service.kvb-koeln.de/geoserver/OPENDATA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=ODENDATA%3Afahrtreppen&outputFormat=application/json)
 - [Stoerungen Fahrtreppen KVB Koeln im json Format](https://online-service.kvb-koeln.de/geoserver/OPENDATA/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=ODENDATA%3Afahrtreppen_gestoert&outputFormat=application/json)
 

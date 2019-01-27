@@ -4,18 +4,10 @@ import java.util.Date;
 
 public class Interruption {
 
-	private int id;
 	private String elevatorid;
+	private Date timestamp;
 	private Date start;
 	private Date stop;
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
 
 	public String getElevatorid() {
 		return elevatorid;
@@ -23,6 +15,14 @@ public class Interruption {
 
 	public void setElevatorid(String elevatorid) {
 		this.elevatorid = elevatorid;
+	}
+
+	public Date getTimestamp() {
+		return timestamp;
+	}
+
+	public void setTimestamp(Date timestamp) {
+		this.timestamp = timestamp;
 	}
 
 	public Date getStart() {
@@ -46,9 +46,9 @@ public class Interruption {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((elevatorid == null) ? 0 : elevatorid.hashCode());
-		result = prime * result + id;
 		result = prime * result + ((start == null) ? 0 : start.hashCode());
 		result = prime * result + ((stop == null) ? 0 : stop.hashCode());
+		result = prime * result + ((timestamp == null) ? 0 : timestamp.hashCode());
 		return result;
 	}
 
@@ -66,8 +66,6 @@ public class Interruption {
 				return false;
 		} else if (!elevatorid.equals(other.elevatorid))
 			return false;
-		if (id != other.id)
-			return false;
 		if (start == null) {
 			if (other.start != null)
 				return false;
@@ -78,12 +76,18 @@ public class Interruption {
 				return false;
 		} else if (!stop.equals(other.stop))
 			return false;
+		if (timestamp == null) {
+			if (other.timestamp != null)
+				return false;
+		} else if (!timestamp.equals(other.timestamp))
+			return false;
 		return true;
 	}
 
 	@Override
 	public String toString() {
-		return "Interruption [id=" + id + ", elevatorid=" + elevatorid + ", start=" + start + ", stop=" + stop + "]";
+		return "Interruption [elevatorid=" + elevatorid + ", timestamp=" + timestamp + ", start=" + start + ", stop="
+				+ stop + "]";
 	}
 
 }

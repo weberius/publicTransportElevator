@@ -18,9 +18,9 @@ public class InsertDao {
 		this.ior = ior;
 	}
 
-	public int execute() throws SQLException, IOException {
+	public String execute() throws SQLException, IOException {
 		QueryRunner run = new QueryRunner();
-		ResultSetHandler<Integer> rsh = new ScalarHandler<Integer>();
+		ResultSetHandler<String> rsh = new ScalarHandler<String>();
 		return run.insert(this.conn, ior.getSql(), rsh, ior.getParameter());
 	}
 

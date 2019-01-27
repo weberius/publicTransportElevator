@@ -25,15 +25,22 @@ import de.illilli.opendata.service.Converter;
 import de.illilli.opendata.service.publicTransportElevator.converter.Dto2Elevator;
 import de.illilli.opendata.service.publicTransportElevator.converter.Elevator2Insert;
 import de.illilli.opendata.service.publicTransportElevator.converter.Url2ElevatorList;
+import de.illilli.opendata.service.publicTransportElevator.converter.Url2InterruptionList;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.ElevatorDTO;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.InsertElevator;
+import de.illilli.opendata.service.publicTransportElevator.jdbc.InterruptionDTO;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.SelectElevator;
+import de.illilli.opendata.service.publicTransportElevator.jdbc.SelectInterruption;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.SelectVersion;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.ShowTables;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.TableNamesDTO;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.VersionDTO;
 import de.illilli.opendata.service.publicTransportElevator.model.Elevator;
+import de.illilli.opendata.service.publicTransportElevator.model.Interruption;
 
+/**
+ * This class is for playing around. There is no real test.
+ */
 public class Main {
 
 	private Connection connection;
@@ -95,6 +102,33 @@ public class Main {
 			new InsertDao(new InsertElevator(elevator), connection).execute();
 		}
 
+		List<ElevatorDTO> dtoList = new SelectListDao<ElevatorDTO>(new SelectElevator(), connection).execute();
+		for (ElevatorDTO dto : dtoList) {
+			System.out.println(dto);
+		}
+	}
+
+	/**
+	 * figure out how this works
+	 * 
+	 * @throws IOException
+	 * @throws SQLException
+	 */
+	@Test
+	public void testInterruptionWithDBUtils() throws IOException, SQLException {
+
+		URL url = this.getClass().getClassLoader().getResource("fahrtreppen.stoerungen.20190122.json");
+		Converter<List<Interruption>, URL> converter = new Url2InterruptionList();
+		List<Interruption> interruptionList = converter.getAsObject(url);
+
+		new InterruptionStoring(interruptionList, this.connection).storeToDb();
+
+		List<InterruptionDTO> dtoList = new SelectListDao<InterruptionDTO>(new SelectInterruption(), connection)
+				.execute();
+		for (InterruptionDTO dto : dtoList) {
+			System.out.println(dto);
+		}
+
 	}
 
 	@Test
@@ -106,6 +140,7 @@ public class Main {
 	}
 
 	@Test
+	@Ignore
 	public void testWithStatementExecute() throws SQLException {
 
 		URL url = this.getClass().getClassLoader().getResource("fahrtreppen.json");
@@ -125,6 +160,7 @@ public class Main {
 	}
 
 	@Test
+	@Ignore
 	public void testReadWithDBUtils() throws SQLException, IOException {
 
 		URL url = this.getClass().getClassLoader().getResource("fahrtreppen.json");
