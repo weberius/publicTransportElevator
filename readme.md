@@ -94,8 +94,9 @@ Die Applikaton beruht auf den Daten der KVB. Die Daten sehen nach geojson aus. D
 
 	CREATE TABLE interruption (
 	    elevatorid VARCHAR(32),
-	    start DATE,
-	    stop DATE,
+	    time TIMESTAMP,
+	    start TIMESTAMP,
+	    stop TIMESTAMP,
 	    period INT
 	);	
 
