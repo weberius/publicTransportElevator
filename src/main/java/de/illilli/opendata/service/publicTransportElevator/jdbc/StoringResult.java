@@ -58,4 +58,9 @@ public class StoringResult {
 		return true;
 	}
 
+	@Override
+	public String toString() {
+		return "StoringResult [inserted=" + inserted + ", updated=" + updated + ", skipped=" + skipped + "]";
+	}
+
 }
