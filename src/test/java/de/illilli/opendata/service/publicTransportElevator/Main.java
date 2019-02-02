@@ -43,7 +43,7 @@ import de.illilli.opendata.service.publicTransportElevator.model.Interruption;
  */
 public class Main {
 
-	private Connection connection;
+	Connection connection;
 
 	@Before
 	public void setupDB() throws Exception {
@@ -63,6 +63,9 @@ public class Main {
 				System.out.println(tableName);
 				initialzed = true;
 			}
+			if (!initialzed) {
+				System.out.println("database not initialized; Tabellen nicht angelegt");
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -73,11 +76,12 @@ public class Main {
 			System.out.println(version);
 			initialzed = true;
 		} catch (Exception e) {
-			e.printStackTrace();
+			System.out.println("database not initialized; Funktion \"H2GISVERSION\" nicht gefunden");
 		}
 
 		// initiliaze Database
 		if (!initialzed) {
+			System.out.println("initialze database.");
 			String sqlFileName = "/sql/init.sql";
 			InputStream inputStream = Main.class.getResourceAsStream(sqlFileName);
 			String sql = IOUtils.toString(inputStream);
