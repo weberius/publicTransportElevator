@@ -115,8 +115,10 @@ public class Main {
 	 * @throws SQLException
 	 */
 	@Test
+	@Ignore
 	public void testInterruptionWithDBUtils() throws IOException, SQLException {
 
+		// import first dataset
 		URL url = this.getClass().getClassLoader().getResource("fahrtreppen.stoerungen.20190122.json");
 		Converter<List<Interruption>, URL> converter = new Url2InterruptionList();
 		List<Interruption> interruptionList = converter.getAsObject(url);
@@ -125,6 +127,42 @@ public class Main {
 
 		List<InterruptionDTO> dtoList = new SelectListDao<InterruptionDTO>(new SelectInterruption(), connection)
 				.execute();
+		for (InterruptionDTO dto : dtoList) {
+			System.out.println(dto);
+		}
+
+	}
+
+	/**
+	 * figure out how this works
+	 * 
+	 * @throws IOException
+	 * @throws SQLException
+	 */
+	@Test
+	public void testSeveralsInterruptionDataSets() throws IOException, SQLException {
+
+		// import first dataset
+		URL url = this.getClass().getClassLoader().getResource("fahrtreppen.stoerungen.20190122.json");
+		Converter<List<Interruption>, URL> converter = new Url2InterruptionList();
+		List<Interruption> interruptionList = converter.getAsObject(url);
+
+		new InterruptionStoring(interruptionList, this.connection).storeToDb();
+
+		List<InterruptionDTO> dtoList = new SelectListDao<InterruptionDTO>(new SelectInterruption(), connection)
+				.execute();
+		for (InterruptionDTO dto : dtoList) {
+			System.out.println(dto);
+		}
+
+		// import next data
+		url = this.getClass().getClassLoader().getResource("fahrtreppen.stoerungen.20190123.json");
+		converter = new Url2InterruptionList();
+		interruptionList = converter.getAsObject(url);
+
+		new InterruptionStoring(interruptionList, this.connection).storeToDb();
+
+		dtoList = new SelectListDao<InterruptionDTO>(new SelectInterruption(), connection).execute();
 		for (InterruptionDTO dto : dtoList) {
 			System.out.println(dto);
 		}
