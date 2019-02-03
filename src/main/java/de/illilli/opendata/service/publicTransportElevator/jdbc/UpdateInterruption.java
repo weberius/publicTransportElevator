@@ -10,15 +10,18 @@ import de.illilli.jdbc.InsertOrUpdate;
 public class UpdateInterruption implements InsertOrUpdate {
 
 	static final String sqlFileName = "/sql/updateInterruption.sql";
-	private InterruptionDTO dto;
+	private InterruptionDTO dtofromDb;
+	private InterruptionDTO dtoFromSource;
 
-	public UpdateInterruption(InterruptionDTO dto) {
-		this.dto = dto;
+	public UpdateInterruption(InterruptionDTO dtofromDb, InterruptionDTO dtoFromSource) {
+		this.dtofromDb = dtofromDb;
+		this.dtoFromSource = dtoFromSource;
 	}
 
 	@Override
 	public Object[] getParameter() {
-		return new Object[] { dto.getStop(), dto.getElevatorid(), dto.getTime() };
+		return new Object[] { dtoFromSource.getTime(), dtoFromSource.getStop(), dtoFromSource.getElevatorid(),
+				dtofromDb.getStart() };
 	}
 
 	@Override

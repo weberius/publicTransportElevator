@@ -1,0 +1,126 @@
+{
+	"type": "FeatureCollection",
+	"totalFeatures":4,
+	"features": [
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-533c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00864855,
+					50.93914003
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-53",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus abwärts",
+				"Haltestellenbereich": "513",
+				"Info": null,
+				"timestamp": "2019-01-22T21:39:09Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-533c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00864855,
+					50.93914003
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-53",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus abwärts",
+				"Haltestellenbereich": "513",
+				"Info": null,
+				"timestamp": "2019-01-22T22:39:09Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-533c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00864855,
+					50.93914003
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-53",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus abwärts",
+				"Haltestellenbereich": "513",
+				"Info": null,
+				"timestamp": "2019-01-22T23:39:09Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-533c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00864855,
+					50.93914003
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-53",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus abwärts",
+				"Haltestellenbereich": "513",
+				"Info": null,
+				"timestamp": "2019-01-23T11:39:09Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-533c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00864855,
+					50.93914003
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-53",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus abwärts",
+				"Haltestellenbereich": "513",
+				"Info": null,
+				"timestamp": "2019-01-23T12:39:09Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-533c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00864855,
+					50.93914003
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-53",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus abwärts",
+				"Haltestellenbereich": "513",
+				"Info": null,
+				"timestamp": "2019-01-23T16:39:09Z"
+			}
+		}
+	],
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:EPSG::4326"
+		}
+	}
+}

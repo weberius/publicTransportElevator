@@ -54,13 +54,18 @@ public class InterruptionStoring {
 
 		for (Interruption interruption : this.interruptionList) {
 
+			// System.out.println("interruption: " + interruption.toString());
+
 			List<InterruptionDTO> dtoList = new SelectListDao<InterruptionDTO>(
 					new SelectInterruptionByElevatorId(interruption), connection).execute();
+
+			// System.out.println("dtoList: " + dtoList.toString());
 
 			if (dtoList.isEmpty()) {
 				// if no interruption does'nt exists, insert just like this
 				new InsertDao(new InsertInterruption(interruption), connection).execute();
 				result.addInserted(1);
+				// System.out.println("insert:\t" + interruption.toString());
 			} else {
 				// check only last occurence
 				InterruptionDTO dtofromDb = dtoList.get(dtoList.size() - 1);
@@ -68,15 +73,22 @@ public class InterruptionStoring {
 				if (dtofromDb.equals(dtoFromSource)) {
 					// do nothing duplicate values in source; data is alreade stored to db
 					// TODO: do logging
-					System.out.println("duplicate value: " + dtofromDb.toString());
+					// System.out.println("duplicate value: " + dtofromDb.toString());
+					// System.out.println("skip:\t" + dtofromDb.toString());
 					result.addSkipped(1);
 				} else {
-					if (dtofromDb.getStop().before(dtoFromSource.getStart())) {
+					if (dtofromDb.getStop().equals(dtoFromSource.getTime())) {
 						// update if stop from db is < start from source
-						new InsertDao(new UpdateInterruption(dtoFromSource), connection).execute();
+
+						// System.out.println("update:\t" + interruption.toString());
+						// System.out.println("update:\t" + dtofromDb.toString());
+
+						new InsertDao(new UpdateInterruption(dtofromDb, dtoFromSource), connection).execute();
 						result.addUpdated(1);
 					} else {
 						// insert if stop is > start
+						// System.out.println("insert:\t" + interruption.toString());
+						// System.out.println("insert:\t" + dtofromDb.toString());
 						new InsertDao(new InsertInterruption(dtoFromSource), connection).execute();
 						result.addInserted(1);
 					}

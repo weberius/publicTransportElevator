@@ -1,1 +1,5 @@
-update interruption set stop = ? WHERE elevatorid = ? and time = ?;
+update interruption 
+  set time = ?, stop = ?  
+WHERE 
+  elevatorid = ? 
+  and start = ?

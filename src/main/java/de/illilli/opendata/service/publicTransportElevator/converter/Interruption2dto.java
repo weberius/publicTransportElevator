@@ -7,6 +7,18 @@ import de.illilli.opendata.service.Converter;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.InterruptionDTO;
 import de.illilli.opendata.service.publicTransportElevator.model.Interruption;
 
+/**
+ * <p>
+ * Dieser Converter konvertiert ein Interruption Objekt in ein InterruptionDTO.
+ * Dies kann dann in die Datenbank geschrieben werden.
+ * </p>
+ * In dieser Klasse wird die Abfrage Periode aus der Konfiguration ausgelesen
+ * und in das Feld 'period' geschrieben. In das Feld 'start' wird die time vom
+ * source-Datensatz gesetzt. In das Feld 'stop' wird der 'start'-Wert plus die
+ * 'period' geschrieben.
+ * <p>
+ * </p>
+ */
 public class Interruption2dto implements Converter<InterruptionDTO, Interruption> {
 
 	@Override

@@ -1,0 +1,164 @@
+{
+	"type": "FeatureCollection",
+	"totalFeatures": 8,
+	"features": [
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-533c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00864855,
+					50.93914003
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-53",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus abwärts",
+				"Haltestellenbereich": "513",
+				"Info": null,
+				"timestamp": "2019-01-22T21:39:09Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-533b",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93247291,
+					50.94364482
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-57",
+				"Bezeichnung": "Ausgang Venloer Str./Grüngürtel",
+				"Haltestellenbereich": "31",
+				"Info": null,
+				"timestamp": "2019-01-22T21:39:09Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-533a",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94249018,
+					50.94448893
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "143-52",
+				"Bezeichnung": "Ausgang Kaiser-Wilhelm-Ring - Gleis Richtung Hansaring abwärts",
+				"Haltestellenbereich": "32",
+				"Info": null,
+				"timestamp": "2019-01-22T21:39:09Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-5339",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9584376,
+					50.95099937
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-53",
+				"Bezeichnung": "Ausgang Riehler Str. Nord",
+				"Haltestellenbereich": "35",
+				"Info": null,
+				"timestamp": "2019-01-22T21:39:09Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-533c",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					7.00864855,
+					50.93914003
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "092-53",
+				"Bezeichnung": "Ausgang Steprathstr./Rathaus abwärts",
+				"Haltestellenbereich": "513",
+				"Info": null,
+				"timestamp": "2019-01-22T21:39:09Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-533b",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.93247291,
+					50.94364482
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "159-57",
+				"Bezeichnung": "Ausgang Venloer Str./Grüngürtel",
+				"Haltestellenbereich": "31",
+				"Info": null,
+				"timestamp": "2019-01-22T21:39:09Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-533a",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.94249018,
+					50.94448893
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "143-52",
+				"Bezeichnung": "Ausgang Kaiser-Wilhelm-Ring - Gleis Richtung Hansaring abwärts",
+				"Haltestellenbereich": "32",
+				"Info": null,
+				"timestamp": "2019-01-22T21:39:09Z"
+			}
+		},
+		{
+			"type": "Feature",
+			"id": "fahrtreppen_gestoert.fid-48eb7079_1687525444a_-5339",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					6.9584376,
+					50.95099937
+				]
+			},
+			"geometry_name": "Koordinate",
+			"properties": {
+				"Kennung": "002-53",
+				"Bezeichnung": "Ausgang Riehler Str. Nord",
+				"Haltestellenbereich": "35",
+				"Info": null,
+				"timestamp": "2019-01-22T21:39:09Z"
+			}
+		}
+	],
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:EPSG::4326"
+		}
+	}
+}
