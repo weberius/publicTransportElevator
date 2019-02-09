@@ -1,7 +1,6 @@
 package de.illilli.opendata.service.publicTransportElevator.converter;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.URL;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -16,9 +15,7 @@ import org.geojson.FeatureCollection;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import de.illilli.opendata.service.AskFor;
 import de.illilli.opendata.service.Converter;
-import de.illilli.opendata.service.publicTransportElevator.askfor.AskForInterruption;
 import de.illilli.opendata.service.publicTransportElevator.model.Interruption;
 
 public class Url2InterruptionList implements Converter<List<Interruption>, URL> {
@@ -28,12 +25,10 @@ public class Url2InterruptionList implements Converter<List<Interruption>, URL> 
 
 		List<Interruption> data = new ArrayList<Interruption>();
 
-		AskFor<InputStream> askFor;
 		FeatureCollection featureCollection = null;
 		try {
-			askFor = new AskForInterruption(value);
 			featureCollection = new ObjectMapper().disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES)
-					.readValue(askFor.getData(), FeatureCollection.class);
+					.readValue(new URL2InputStream().getAsObject(value), FeatureCollection.class);
 		} catch (IOException e) {
 			// TODO: use Logger
 			e.printStackTrace();
