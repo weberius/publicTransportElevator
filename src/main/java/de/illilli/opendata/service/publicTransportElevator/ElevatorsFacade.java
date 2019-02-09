@@ -13,16 +13,14 @@ import com.google.gson.Gson;
 
 import de.illilli.jdbc.ConnectionFactory;
 import de.illilli.jdbc.SelectListDao;
-import de.illilli.opendata.service.Converter;
 import de.illilli.opendata.service.Facade;
 import de.illilli.opendata.service.publicTransportElevator.converter.Dto2Elevator;
-import de.illilli.opendata.service.publicTransportElevator.converter.Url2ElevatorList;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.ElevatorDTO;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.SelectElevator;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.SelectElevatorById;
 import de.illilli.opendata.service.publicTransportElevator.model.Elevator;
 
-public class ElevatorsFacade implements Facade {
+public class ElevatorsFacade implements Facade<String> {
 
 	List<Elevator> data = new ArrayList<Elevator>();
 
@@ -37,7 +35,7 @@ public class ElevatorsFacade implements Facade {
 			data.add(elevator);
 		}
 	}
-	
+
 	public ElevatorsFacade(String id) throws IOException, SQLException, ClassNotFoundException, NamingException {
 
 		Connection connection = ConnectionFactory.getConnection();
@@ -50,9 +48,8 @@ public class ElevatorsFacade implements Facade {
 		}
 	}
 
-
 	@Override
-	public String getJson() throws JsonProcessingException {
+	public String getData() throws JsonProcessingException {
 		return new Gson().toJson(data);
 	}
 

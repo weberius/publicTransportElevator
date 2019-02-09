@@ -2,7 +2,7 @@ package de.illilli.opendata.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 
-public interface Facade {
+public interface Facade<T> {
 
-	String getJson() throws JsonProcessingException;
+	T getData() throws JsonProcessingException;
 }

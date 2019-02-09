@@ -29,7 +29,8 @@ public class ElevatoresGeoJsonFacade extends ElevatorsFacade {
 		featureCollection.addAll(featureList);
 	}
 
-	public ElevatoresGeoJsonFacade(String id) throws IOException, ClassNotFoundException, SQLException, NamingException {
+	public ElevatoresGeoJsonFacade(String id)
+			throws IOException, ClassNotFoundException, SQLException, NamingException {
 		super(id);
 		for (Elevator elevator : super.data) {
 			featureList.add(new Elevator2Feature().getAsObject(elevator));
@@ -38,7 +39,7 @@ public class ElevatoresGeoJsonFacade extends ElevatorsFacade {
 	}
 
 	@Override
-	public String getJson() throws JsonProcessingException {
+	public String getData() throws JsonProcessingException {
 		return new ObjectMapper().writeValueAsString(featureCollection);
 	}
 

@@ -21,7 +21,7 @@ public class ElevatorsFacadeTest extends Main {
 	public void testGetJson() throws IOException, ClassNotFoundException, SQLException, NamingException {
 		URL url = this.getClass().getClassLoader().getResource("fahrtreppen.json");
 		Facade facade = new ElevatorsFacade();
-		Assert.assertTrue(facade.getJson() != null);
+		Assert.assertTrue(facade.getData() != null);
 		// System.out.println(facade.getJson());
 	}
 

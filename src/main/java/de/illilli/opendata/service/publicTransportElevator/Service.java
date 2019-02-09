@@ -64,7 +64,7 @@ public class Service {
 	@Produces({ MediaType.APPLICATION_JSON })
 	public Response getElevators() throws IOException, ClassNotFoundException, SQLException, NamingException {
 
-		Facade facade = null;
+		Facade<String> facade = null;
 
 		String format = request.getParameter("format");
 		if (Format.geojson.name().equals(format)) {
@@ -73,16 +73,17 @@ public class Service {
 			facade = new ElevatorsFacade();
 		}
 
-		return Response.status(Status.OK).entity(facade.getJson()).build();
+		return Response.status(Status.OK).entity(facade.getData()).build();
 
 	}
 
 	@GET
 	@Produces({ MediaType.APPLICATION_JSON })
 	@Path("{id}")
-	public Response getElevators(@PathParam("id") String id) throws IOException, ClassNotFoundException, SQLException, NamingException {
+	public Response getElevators(@PathParam("id") String id)
+			throws IOException, ClassNotFoundException, SQLException, NamingException {
 
-		Facade facade = null;
+		Facade<String> facade = null;
 
 		String format = request.getParameter("format");
 		if (Format.geojson.name().equals(format)) {
@@ -91,7 +92,7 @@ public class Service {
 			facade = new ElevatorsFacade(id);
 		}
 
-		return Response.status(Status.OK).entity(facade.getJson()).build();
+		return Response.status(Status.OK).entity(facade.getData()).build();
 
 	}
 }

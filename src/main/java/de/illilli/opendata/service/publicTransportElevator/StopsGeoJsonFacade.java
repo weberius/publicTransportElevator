@@ -30,7 +30,7 @@ public class StopsGeoJsonFacade extends StopsFacade {
 	}
 
 	@Override
-	public String getJson() throws JsonProcessingException {
+	public String getData() throws JsonProcessingException {
 		return new ObjectMapper().writeValueAsString(featureCollection);
 	}
 

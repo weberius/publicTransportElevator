@@ -49,7 +49,7 @@ public class StopService {
 	public Response getStops(@PathParam("id") String id)
 			throws IOException, ClassNotFoundException, SQLException, NamingException {
 
-		Facade facade = null;
+		Facade<String> facade = null;
 
 		String format = request.getParameter("format");
 		if (Format.geojson.name().equals(format)) {
@@ -58,7 +58,7 @@ public class StopService {
 			facade = new StopsFacade(id);
 		}
 
-		return Response.status(Status.OK).entity(facade.getJson()).build();
+		return Response.status(Status.OK).entity(facade.getData()).build();
 
 	}
 

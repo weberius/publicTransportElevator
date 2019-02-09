@@ -18,7 +18,7 @@ import de.illilli.opendata.service.publicTransportElevator.converter.Url2Interru
 import de.illilli.opendata.service.publicTransportElevator.jdbc.StoringResult;
 import de.illilli.opendata.service.publicTransportElevator.model.Interruption;
 
-public class InterruptionFacade implements Facade {
+public class InterruptionFacade implements Facade<String> {
 
 	StoringResult result;
 
@@ -40,7 +40,7 @@ public class InterruptionFacade implements Facade {
 	}
 
 	@Override
-	public String getJson() throws JsonProcessingException {
+	public String getData() throws JsonProcessingException {
 		return this.result.toString();
 	}
 

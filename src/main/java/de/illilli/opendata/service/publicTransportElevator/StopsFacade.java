@@ -19,7 +19,7 @@ import de.illilli.opendata.service.publicTransportElevator.jdbc.ElevatorDTO;
 import de.illilli.opendata.service.publicTransportElevator.jdbc.SelectStopById;
 import de.illilli.opendata.service.publicTransportElevator.model.Elevator;
 
-public class StopsFacade implements Facade {
+public class StopsFacade implements Facade<String> {
 
 	List<Elevator> data = new ArrayList<Elevator>();
 
@@ -36,7 +36,7 @@ public class StopsFacade implements Facade {
 	}
 
 	@Override
-	public String getJson() throws JsonProcessingException {
+	public String getData() throws JsonProcessingException {
 		return new Gson().toJson(data);
 	}
 
