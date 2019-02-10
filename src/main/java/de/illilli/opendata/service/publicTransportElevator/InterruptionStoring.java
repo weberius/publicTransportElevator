@@ -19,7 +19,10 @@ import de.illilli.opendata.service.publicTransportElevator.model.Interruption;
 /**
  * With this class interreptions from source can be stored to database. It needs
  * the list from source, checks some conditions ans stores all data needed.
+ * 
+ * @deprecated don't use this anymore; use Interruption2Database in loop
  */
+@Deprecated
 public class InterruptionStoring {
 
 	private List<Interruption> interruptionList = new ArrayList<>();

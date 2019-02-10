@@ -1,10 +1,20 @@
 package de.illilli.opendata.service.publicTransportElevator.jdbc;
 
+/**
+ * StoringResult is needed to count how many rows are inserted, updated or
+ * skipped when inserting a Interruption to database.
+ */
 public class StoringResult {
 
 	private int inserted = 0;
 	private int updated = 0;
 	private int skipped = 0;
+
+	public void addAll(StoringResult result) {
+		this.inserted += result.getInserted();
+		this.updated += result.getUpdated();
+		this.skipped += result.getSkipped();
+	}
 
 	public int getInserted() {
 		return inserted;

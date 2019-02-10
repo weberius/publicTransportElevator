@@ -18,9 +18,9 @@ import de.illilli.opendata.service.publicTransportElevator.converter.Url2Interru
 import de.illilli.opendata.service.publicTransportElevator.jdbc.StoringResult;
 import de.illilli.opendata.service.publicTransportElevator.model.Interruption;
 
-public class InterruptionFacade implements Facade<String> {
+public class InterruptionFacade implements Facade<StoringResult> {
 
-	StoringResult result;
+	StoringResult result = new StoringResult();
 
 	public InterruptionFacade() throws IOException, ClassNotFoundException, SQLException, NamingException {
 		this(new URL(Config.getProperty("kvb.fahrtreppen_gestoert.url")));
@@ -33,15 +33,16 @@ public class InterruptionFacade implements Facade<String> {
 		Converter<List<Interruption>, URL> converter = new Url2InterruptionList();
 		List<Interruption> interruptionList = converter.getAsObject(url);
 
-		InterruptionStoring storing = new InterruptionStoring(interruptionList, connection);
-		storing.storeToDb();
-		this.result = storing.getResult();
+		for (Interruption interruption : interruptionList) {
+			StoringResult result = new Interruption2Database(connection).save(interruption);
+			this.result.addAll(result);
+		}
 
 	}
 
 	@Override
-	public String getData() throws JsonProcessingException {
-		return this.result.toString();
+	public StoringResult getData() throws JsonProcessingException {
+		return this.result;
 	}
 
 }

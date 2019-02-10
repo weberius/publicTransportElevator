@@ -19,22 +19,9 @@ import de.illilli.opendata.service.publicTransportElevator.jdbc.SelectInterrupti
 import de.illilli.opendata.service.publicTransportElevator.jdbc.StoringResult;
 import de.illilli.opendata.service.publicTransportElevator.model.Interruption;
 
-/**
- * <p>
- * Testing InterruptionStoring.
- * </p>
- * 
- * <p>
- * InterruptionStoring will be removed soon. All Tests are moved to
- * Interruption2DatabaseTest.
- * </p>
- * 
- * @see Interruption2DatabaseTest
- * @deprecated there is no need to use this test anymore, becaus
- *             InterruptionStoring will be remove soon.
- */
-@Deprecated
-public class InterruptionStoringTest extends Main {
+public class Interruption2DatabaseTest extends Main {
+
+	private StoringResult result = null;
 
 	/**
 	 * Dieser Test testet, ob Daten in die Datenbank geschrieben werden. Es sollen
@@ -46,16 +33,19 @@ public class InterruptionStoringTest extends Main {
 	@Test
 	public void testInsert() throws SQLException, IOException {
 
+		this.result = new StoringResult();
+
 		URL url = this.getClass().getClassLoader().getResource("fahrtreppen.stoerungen.insert.json");
 		Converter<List<Interruption>, URL> converter = new Url2InterruptionList();
 		List<Interruption> interruptionList = converter.getAsObject(url);
 
-		InterruptionStoring storing = new InterruptionStoring(interruptionList, super.connection);
-		storing.storeToDb();
-		StoringResult result = storing.getResult();
+		for (Interruption interruption : interruptionList) {
+			StoringResult result = new Interruption2Database(connection).save(interruption);
+			this.result.addAll(result);
+		}
 
 		int expected = 4;
-		int actual = result.getInserted();
+		int actual = this.result.getInserted();
 
 		Assert.assertEquals(expected, actual);
 
@@ -71,16 +61,19 @@ public class InterruptionStoringTest extends Main {
 	@Test
 	public void testSkip() throws SQLException, IOException {
 
+		this.result = new StoringResult();
+
 		URL url = this.getClass().getClassLoader().getResource("fahrtreppen.stoerungen.skip.json");
 		Converter<List<Interruption>, URL> converter = new Url2InterruptionList();
 		List<Interruption> interruptionList = converter.getAsObject(url);
 
-		InterruptionStoring storing = new InterruptionStoring(interruptionList, super.connection);
-		storing.storeToDb();
-		StoringResult result = storing.getResult();
+		for (Interruption interruption : interruptionList) {
+			StoringResult result = new Interruption2Database(connection).save(interruption);
+			this.result.addAll(result);
+		}
 
 		int expected = 4;
-		int actual = result.getSkipped();
+		int actual = this.result.getSkipped();
 
 		Assert.assertEquals(expected, actual);
 
@@ -97,17 +90,19 @@ public class InterruptionStoringTest extends Main {
 	@Test
 	public void testUpdate() throws SQLException, IOException {
 
+		this.result = new StoringResult();
+
 		URL url = this.getClass().getClassLoader().getResource("fahrtreppen.stoerungen.update.json");
 		Converter<List<Interruption>, URL> converter = new Url2InterruptionList();
 		List<Interruption> interruptionList = converter.getAsObject(url);
 
-		InterruptionStoring storing = new InterruptionStoring(interruptionList, super.connection);
-		storing.storeToDb();
-		StoringResult result = storing.getResult();
-
+		for (Interruption interruption : interruptionList) {
+			StoringResult result = new Interruption2Database(connection).save(interruption);
+			this.result.addAll(result);
+		}
 		// check updated
 		int expected = 4;
-		int actual = result.getUpdated();
+		int actual = this.result.getUpdated();
 
 		Assert.assertEquals(expected, actual);
 
@@ -120,11 +115,10 @@ public class InterruptionStoringTest extends Main {
 		Converter<List<Interruption>, URL> converter = new Url2InterruptionList();
 		List<Interruption> interruptionList = converter.getAsObject(url);
 
-		InterruptionStoring storing = new InterruptionStoring(interruptionList, super.connection);
-		storing.storeToDb();
-		StoringResult result = storing.getResult();
-
-		System.out.println(result.toString());
+		for (Interruption interruption : interruptionList) {
+			new Interruption2Database(connection).save(interruption);
+		}
+		// System.out.println(result.toString());
 
 		// check updated
 		// first read from database
@@ -167,15 +161,18 @@ public class InterruptionStoringTest extends Main {
 	@Test
 	public void testUpdateMoreThanOne() throws SQLException, IOException, ParseException {
 
+		this.result = new StoringResult();
+
 		URL url = this.getClass().getClassLoader().getResource("fahrtreppen.stoerungen.updateMoreThanOne.json");
 		Converter<List<Interruption>, URL> converter = new Url2InterruptionList();
 		List<Interruption> interruptionList = converter.getAsObject(url);
 
-		InterruptionStoring storing = new InterruptionStoring(interruptionList, super.connection);
-		storing.storeToDb();
-		StoringResult result = storing.getResult();
+		for (Interruption interruption : interruptionList) {
+			StoringResult result = new Interruption2Database(connection).save(interruption);
+			this.result.addAll(result);
+		}
 
-		System.out.println(result.toString());
+		// System.out.println(result.toString());
 
 		// check inserted
 		int expected = 3;
@@ -199,8 +196,9 @@ public class InterruptionStoringTest extends Main {
 		List<Interruption> interruptionList = converter.getAsObject(url);
 
 		// store values to database
-		InterruptionStoring storing = new InterruptionStoring(interruptionList, super.connection);
-		storing.storeToDb();
+		for (Interruption interruption : interruptionList) {
+			new Interruption2Database(connection).save(interruption);
+		}
 
 		// check updated
 		// first read from database

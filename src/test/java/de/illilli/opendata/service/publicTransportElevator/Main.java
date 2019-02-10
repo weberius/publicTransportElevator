@@ -39,7 +39,9 @@ import de.illilli.opendata.service.publicTransportElevator.model.Elevator;
 import de.illilli.opendata.service.publicTransportElevator.model.Interruption;
 
 /**
- * This class is for playing around. There is no real test.
+ * This test defines setup and close database for tests which a need for
+ * database. There are some ignored 'test'. This is more like a playground. Some
+ * tests may not run.
  */
 public class Main {
 
@@ -144,6 +146,7 @@ public class Main {
 	 * @throws SQLException
 	 */
 	@Test
+	@Ignore
 	public void testSeveralsInterruptionDataSets() throws IOException, SQLException {
 
 		// import first dataset
