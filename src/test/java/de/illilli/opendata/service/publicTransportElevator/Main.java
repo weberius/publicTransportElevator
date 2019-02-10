@@ -129,7 +129,9 @@ public class Main {
 		Converter<List<Interruption>, URL> converter = new Url2InterruptionList();
 		List<Interruption> interruptionList = converter.getAsObject(url);
 
-		new InterruptionStoring(interruptionList, this.connection).storeToDb();
+		for (Interruption interruption : interruptionList) {
+			new Interruption2Database(connection).save(interruption);
+		}
 
 		List<InterruptionDTO> dtoList = new SelectListDao<InterruptionDTO>(new SelectInterruption(), connection)
 				.execute();
@@ -154,7 +156,9 @@ public class Main {
 		Converter<List<Interruption>, URL> converter = new Url2InterruptionList();
 		List<Interruption> interruptionList = converter.getAsObject(url);
 
-		new InterruptionStoring(interruptionList, this.connection).storeToDb();
+		for (Interruption interruption : interruptionList) {
+			new Interruption2Database(connection).save(interruption);
+		}
 
 		List<InterruptionDTO> dtoList = new SelectListDao<InterruptionDTO>(new SelectInterruption(), connection)
 				.execute();
@@ -167,7 +171,9 @@ public class Main {
 		converter = new Url2InterruptionList();
 		interruptionList = converter.getAsObject(url);
 
-		new InterruptionStoring(interruptionList, this.connection).storeToDb();
+		for (Interruption interruption : interruptionList) {
+			new Interruption2Database(connection).save(interruption);
+		}
 
 		dtoList = new SelectListDao<InterruptionDTO>(new SelectInterruption(), connection).execute();
 		for (InterruptionDTO dto : dtoList) {
